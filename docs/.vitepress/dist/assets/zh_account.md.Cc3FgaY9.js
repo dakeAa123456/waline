@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e}from"./chunks/framework.TZvUneVo.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"pages"},"headers":[],"relativePath":"zh/account.md","filePath":"zh/account.md","lastUpdated":null}'),c={name:"zh/account.md"};function o(n,r,s,p,d,l){return e(),a("div")}const u=t(c,[["render",o]]);export{i as __pageData,u as default};
