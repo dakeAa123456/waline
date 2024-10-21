@@ -1,6 +1,5 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
-import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 //引入插槽
 import backtotop from "./components/backtotop.vue"
@@ -30,13 +29,20 @@ import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
 
+//giscus评论
+import giscusTalk from 'vitepress-plugin-comment-with-giscus';
+import { useData } from 'vitepress';
+
+
+
+
 
 export default {
-  extends: DefaultTheme,
- 
-  //图片缩放配置
 
+  extends: DefaultTheme,
   setup() {
+    
+     //图片缩放配置
     const route = useRoute();
     const initZoom = () => {
       // mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); // 默认
@@ -49,7 +55,27 @@ export default {
       () => route.path,
       () => nextTick(() => initZoom())
     )
-    
+     
+    //giscus评论配置
+    const { frontmatter } = useData();
+    giscusTalk({
+      repo: 'dakeAa123456/waline', //仓库
+      repoId: 'R_kgDONCmwZA', //仓库ID
+      category: 'Announcements', // 讨论分类
+      categoryId: 'DIC_kwDONCmwZM4Cji21', //讨论分类ID
+      mapping: 'pathname',
+      inputPosition: 'bottom',
+      lang: 'zh-CN',
+      }, 
+      {
+        frontmatter, route
+      },
+      //默认值为true，表示已启用，此参数可以忽略；
+      //如果为false，则表示未启用
+      //您可以使用“comment:true”序言在页面上单独启用它
+      true
+    );
+
     
   },
   Layout: () => {  

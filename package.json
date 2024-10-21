@@ -8,6 +8,7 @@
     "sass-embedded": "^1.80.2",
     "sass-loader": "^16.0.2",
     "vitepress": "^1.4.1",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15",
     "vue": "^3.5.12"
   },
   "scripts": {
