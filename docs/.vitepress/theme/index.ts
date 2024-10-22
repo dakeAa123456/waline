@@ -18,7 +18,7 @@ import github from "./components/github.vue"
 //引入字数及阅读时间
 import ArticleMetadata from "./components/ArticleMetadata.vue"
 //看板娘
-//import { useLive2d } from 'vitepress-theme-website'
+import { useLive2d } from 'vitepress-theme-website'
 //waline评论插件
 //import { useWaline } from 'vitepress-theme-website'
 //导航组件
@@ -41,6 +41,26 @@ export default {
 
   extends: DefaultTheme,
   setup() {
+     //看板娘
+     useLive2d({
+      enable: true,
+      model: {
+        url: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json'
+      },
+      display: {
+        position: 'right',
+        width: '135px',
+        height: '300px',
+        xOffset: '35px',
+        yOffset: '5px'
+      },
+      mobile: {
+        show: true
+      },
+      react: {
+        opacity: 0.8
+      }
+    })
     
      //图片缩放配置
     const route = useRoute();
@@ -78,7 +98,7 @@ export default {
 
     
   },
-  Layout: () => {  
+  Layout: () => {
     const props: Record<string, any> = {}
     // 获取 frontmatter
     const { frontmatter } = useData()
@@ -86,9 +106,10 @@ export default {
     /* 添加自定义 class */
     if (frontmatter.value?.layoutClass) {
       props.class = frontmatter.value.layoutClass
+     
     }
-    
-    return h(DefaultTheme.Layout, props,  {
+
+    return h(DefaultTheme.Layout, props, {
       'doc-footer-before': () => h(backtotop), // 使用doc-footer-before插槽
       'layout-top': () => h(notice), // 使用layout-top插槽  
     })
@@ -108,7 +129,7 @@ export default {
     //导航组件
     app.component('MNavLinks' , MNavLinks)
     app.component('MNavLink' , MNavLink)
-
+    
     
   },
   
