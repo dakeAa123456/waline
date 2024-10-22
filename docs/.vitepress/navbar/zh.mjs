@@ -44,7 +44,7 @@ export const zhNavbar = [
 						[
 							{ text: 'VitePress官网', link: 'https://vitejs.cn/vitepress/' },
 							{ text: 'Vite中文网', link: 'https://vitejs.cn/' },
-							{ text: 'icon图标库', link: 'https://github.com/ikatyang/emoji-cheat-sheet' }
+							{ text: 'emoji表情库', link: 'https://github.com/ikatyang/emoji-cheat-sheet' }
 
 						]
 				},

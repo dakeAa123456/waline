@@ -21,14 +21,8 @@ setTimeout(function(){ visible.value = false }, 5000000);
         </div>
 
         <div class="bulletin-content">
-            <h3 class="bulletin-h3">最新版本：</h3>
-			<div style="font-size: 12px;color: #5D67E8;">
-				<ul>
-					<li>vuepress：2.0.0-rc.14</li>
-					<li>reco 主题：2.0.0-rc.19</li>
-				</ul>
-			</div>
-			
+           
+            <p class="bulletin-p">优秀案例： <a class="bulletin-link" href="https://fe-nav.netlify.app/" target="_blank">茂茂物语</a></p>
             <p class="bulletin-p">优秀案例： <a class="bulletin-link" href="https://theme-reco.vuejs.press/" target="_blank">VuePress-Reco</a></p>
             <p class="bulletin-p">案例教程： <a class="bulletin-link" href="https://vitepress.yiov.top/" target="_blank">VitePress-docs</a></p>
             <p class="bulletin-p">五彩纸屑： <a class="bulletin-link" href="https://www.kirilv.com/canvas-confetti/#snow" target="_blank">Canvas Confetti</a></p>
