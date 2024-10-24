@@ -1,7 +1,7 @@
-# 名字可以自己取
+
 name: docsearch
 
-# 提交main分支触发部署
+
 on:
   push:
     branches:
@@ -13,16 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # 一会要建docsearch.json文件
+   
       - name: Get the content of docsearch.json as config
         id: algolia_config
         run: echo "::set-output name=config::$(cat docsearch.json | jq -r tostring)"
 
       - name: Run algolia/docsearch-scraper image
-        # 环境变量 ，在仓库设置-安全里添加秘钥
-        # APPLICATION_ID 是 algoia 的 APPLICATION ID
-        # API_KEY 是 algolia 的 Admin API KEY
-        # CONFIG默认即可，无需更改
         env:
           APPLICATION_ID: ${{ QERAK145PL }}
           API_KEY: ${{ d064a51cb72be021e935aa8e21d35042 }}
