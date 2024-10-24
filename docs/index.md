@@ -70,7 +70,7 @@ features:
   
 }
 </style>
-
+<confetti />
 <HomeUnderline />
 
 ## **_快捷方式 ：_**
@@ -78,7 +78,7 @@ features:
 [![Visual Studio Code](https://img.shields.io/badge/VS%20CODE-007ACC?logo=VisualStudioCode&logoColor=fff)](https://code.visualstudio.com/Download)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=Node.js&logoColor=fff)](https://nodejs.org/zh-cn)
 [![Email](https://img.shields.io/badge/邮箱-Email-EA4335?logo=Gmail)](https://qiye.aliyun.com/alimail/auth/login?custom_login_flag=1&reurl=%2Falimail%2F)
-[![Git](https://img.shields.io/badge/Git-F05032?logo=Git&logoColor=fff)](https://www.git.com)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=Git&logoColor=fff)](https://git-scm.com/)
 [![apipost](https://img.shields.io/badge/-Apipost-FF6C37?logo=Postman&logoColor=FFF)](https://wiki.apipost.cn/docs/start/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=Vue.js&logoColor=fff)](https://cn.vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=Vite&logoColor=fff)](https://www.vitejs.net/)

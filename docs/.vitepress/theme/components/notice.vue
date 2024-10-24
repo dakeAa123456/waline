@@ -21,7 +21,7 @@ setTimeout(function(){ visible.value = false }, 5000000);
         </div>
 
         <div class="bulletin-content">
-           
+            <p class="bulletin-p">优秀案例： <a class="bulletin-link" href="https://xinlei3166.github.io/about/" target="_blank">君惜</a></p>
             <p class="bulletin-p">优秀案例： <a class="bulletin-link" href="https://fe-nav.netlify.app/" target="_blank">茂茂物语</a></p>
             <p class="bulletin-p">优秀案例： <a class="bulletin-link" href="https://theme-reco.vuejs.press/" target="_blank">VuePress-Reco</a></p>
             <p class="bulletin-p">案例教程： <a class="bulletin-link" href="https://vitepress.yiov.top/" target="_blank">VitePress-docs</a></p>
