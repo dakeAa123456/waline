@@ -29,7 +29,7 @@ jobs:
           CONFIG: ${{ steps.algolia_config.outputs.config }}
         run: |
           docker run \
-            --env APPLICATION_ID=${APPLICATION_ID} \
-            --env API_KEY=${API_KEY} \
+            --env APPLICATION_ID=${QERAK145PL} \
+            --env API_KEY=${d064a51cb72be021e935aa8e21d35042} \
             --env "CONFIG=${CONFIG}" \
             algolia/docsearch-scraper
