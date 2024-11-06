@@ -66,6 +66,7 @@ export default defineConfig({
         link: 'https://www.bilibili.com/?spm_id_from=333.999.0.0' 
       }
     ],
+    /*
     search: {
       provider: 'algolia',
       options: {
@@ -74,8 +75,9 @@ export default defineConfig({
         indexName: 'dakecn'
       }
     },
+    */
     // 设置搜索框的样式
-   /* search: {
+    search: {
       provider: "local",
       options: {
         translations: {
@@ -94,7 +96,7 @@ export default defineConfig({
         },
       },
     },
-*/
+
     footer: {
       message:'本文档免费提供学习及开发的接口需求，如有侵权请联系QQ邮箱:836843510@qq.com',
       copyright: 'Copyright © 2022-2025，最终解释权、版权、知识产权归©小龙虾所有 <a href="https://beian.miit.gov.cn/?spm=5176.29458888.J_9220772140.60.7cf02868hQEYty#/Integrated/index">浙ICP备2024082002号</a>'

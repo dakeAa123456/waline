@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: ⭐️ 快速上手 →
-      link: /zh/MySql.md
+      link: /zh/account.md
     - theme: alt
       text: ✨️ English
       link: /en/index.md
@@ -28,16 +28,31 @@ features:
     link: https://www.iconfont.cn/?spm=a313x.collections_index.i3.d4d0a486a.50223a81bvXKoN
     linkText: 阿里巴巴图标库
 
-  - icon: 🛵
+  - icon: 📍
     title: '<text class="bottom-small1">colorDrop</text>'
     details: '<text class="bottom-small">欢迎来到五颜六色的世界，这是一个丰富多彩的色彩网站，在这里绝对可以找到属于你的幸运色！</text>'
     link: https://colordrop.io/
     linkText: 彩虹色
-  - icon: 🎉
+  - icon: 🛵
     title: '<text class="bottom-small1">交通安全综合服务平台</text>'
     details: '<text class="bottom-small">买车上牌选号，就上交管12123！</text>'
     link: https://zj.122.gov.cn/#/index
     linkText: 交管12123
+  - icon: 🎉
+    title: '<text class="bottom-small1">Map Data</text>'
+    details: '<text class="bottom-small">随时随地使用中国地图的JSON API开源网站，助力轻松绘制中国地图</text>'
+    link: https://datav.aliyun.com/portal/school/atlas/area_selector
+    linkText: 阿里云地图生成器
+  - icon: 🎈
+    title: '<text class="bottom-small1">DataV</text>'
+    details: '<text class="bottom-small">开源免费，开箱即用，视觉绚丽，丰富多彩的第三方库</text>'
+    link: http://datav.jiaminghi.com/
+    linkText: Vue大屏数据组件库
+  - icon: 🍡
+    title: '<text class="bottom-small1">Apache ECharts</text>'
+    details: '<text class="bottom-small">一个基于 JavaScript 的开源可视化图表库</text>'
+    link: https://echarts.apache.org/zh/index.html
+    linkText: 数据可视化组件库
 ---
 
 <style>
