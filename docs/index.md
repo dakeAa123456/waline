@@ -5,8 +5,8 @@ layoutClass: m-mao-layout
 aside: false
 hero:
   name: "初音未来"
-  text: "欢迎来到小龙虾的网站"
-  tagline: 技术文章，随堂笔记，API接口
+  text: "欢迎来到汤圆的网站"
+  tagline: 优秀案例，随堂笔记，API接口，想你所要
   image:
     src: /images/chuyinweilai.png
     alt: 背景图片

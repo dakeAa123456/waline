@@ -6,7 +6,7 @@ function closeBulletin() {
     visible.value = false
 }
 
-setTimeout(function(){ visible.value = false }, 5000000);
+setTimeout(function(){ visible.value = false }, 9000);
 </script>
 
 <template>
@@ -21,12 +21,13 @@ setTimeout(function(){ visible.value = false }, 5000000);
         </div>
 
         <div class="bulletin-content">
-            <p class="bulletin-p">优秀案例： <a class="bulletin-link" href="https://xinlei3166.github.io/about/" target="_blank">君惜</a></p>
-            <p class="bulletin-p">优秀案例： <a class="bulletin-link" href="https://fe-nav.netlify.app/" target="_blank">茂茂物语</a></p>
-            <p class="bulletin-p">优秀案例： <a class="bulletin-link" href="https://theme-reco.vuejs.press/" target="_blank">VuePress-Reco</a></p>
+            <p class="bulletin-p">优秀作品： <a class="bulletin-link" href="https://xinlei3166.github.io/about/" target="_blank">君惜</a></p>
+            <p class="bulletin-p">优秀作品： <a class="bulletin-link" href="https://fe-nav.netlify.app/" target="_blank">茂茂物语</a></p>
+            <p class="bulletin-p">优秀作品： <a class="bulletin-link" href="https://theme.sugarat.top/" target="_blank">粥里有勺糖</a></p>
+            <p class="bulletin-p">优秀作品： <a class="bulletin-link" href="https://github.com/iCharlesZ/vscode-live2d-models#url" target="_blank">看板娘Live2模型库</a></p>
+            <p class="bulletin-p">优秀作品： <a class="bulletin-link" href="https://theme-reco.vuejs.press/" target="_blank">VuePress-Reco</a></p>
             <p class="bulletin-p">案例教程： <a class="bulletin-link" href="https://vitepress.yiov.top/" target="_blank">VitePress-docs</a></p>
             <p class="bulletin-p">五彩纸屑： <a class="bulletin-link" href="https://www.kirilv.com/canvas-confetti/#snow" target="_blank">Canvas Confetti</a></p>
-            <img class="bulletin-img"src="/images/vuepress-reco.png">
             <hr>
             <div class="btn-group">
                 <a class="btn" href="https://vitepress.dev/zh/" target="_blank">官网</a>

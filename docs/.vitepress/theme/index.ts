@@ -17,10 +17,7 @@ import github from "./components/github.vue"
 /** @type {import('vitepress').Theme} */
 //引入字数及阅读时间
 import ArticleMetadata from "./components/ArticleMetadata.vue"
-//看板娘
-//import { useLive2d } from 'vitepress-theme-website'
-//waline评论插件
-//import { useWaline } from 'vitepress-theme-website'
+
 //导航组件
 import MNavLinks from './components/MNavLinks.vue'
 import MNavLink from './components/MNavLink.vue'
@@ -41,6 +38,7 @@ import { useData } from 'vitepress';
 export default {
 
   extends: DefaultTheme,
+
   setup() {
     
      //图片缩放配置
@@ -95,10 +93,10 @@ export default {
       'layout-top': () => h(notice), // 使用layout-top插槽  
     })
 
-    
+  
     
   },
-  enhanceApp({ app, router, siteData }) {
+ async enhanceApp({ app, router, siteData }) {
     //五彩纸屑
     app.component("confetti", confetti);
     app.component("github", github);
@@ -111,8 +109,42 @@ export default {
     app.component('MNavLinks' , MNavLinks)
     app.component('MNavLink' , MNavLink)
     
-    
+    if (!import.meta.env.SSR) {
+      const { loadOml2d } = await import('oh-my-live2d');
+      loadOml2d({
+        models: [
+         {
+          //path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json'
+          path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/miku/miku.model.json',
+         scale: 0.25,
+         position: [0, 60],
+         stageStyle: {
+          height: 360
+        }
+       
+        }
+         ],
+         tips: (_, currentIndex) => {
+          if (currentIndex === 0) {
+            return {
+              copyTips: {
+                message: ['复制了啥?']
+              },
+              idleTips: {
+                wordTheDay: true
+              }
+            };
+          } else {
+            return {
+              idleTips: {
+                wordTheDay: false
+              }
+            };
+          }
+        }
+      });
+    }
   },
-  
+
 
 }
