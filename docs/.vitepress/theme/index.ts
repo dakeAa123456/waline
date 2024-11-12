@@ -119,19 +119,24 @@ export default {
           path:'https://model.oml2d.com/Senko_Normals/senko.model3.json',
    
          scale: 0.09,
-         position: [-50, 60],
+         position: [-40, 60],
          stageStyle: {
           height: 300
         }
        
         }
          ],
+         menus:{
+             style:{
+                left:0
+             }
+         },
          tips: (_, currentIndex) => {
           
           if (currentIndex === 0) {
             return {
               copyTips: {
-                message: ['']
+                message: ["复制请注明出处哦！"]
               },
               idleTips: {
                 wordTheDay: true
