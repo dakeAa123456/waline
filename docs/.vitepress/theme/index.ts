@@ -115,20 +115,23 @@ export default {
         models: [
          {
           //path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json'
-          path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/miku/miku.model.json',
-         scale: 0.25,
-         position: [0, 60],
+          //path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/miku/miku.model.json',
+          path:'https://model.oml2d.com/Senko_Normals/senko.model3.json',
+   
+         scale: 0.09,
+         position: [-50, 60],
          stageStyle: {
-          height: 360
+          height: 300
         }
        
         }
          ],
          tips: (_, currentIndex) => {
+          
           if (currentIndex === 0) {
             return {
               copyTips: {
-                message: ['复制了啥?']
+                message: ['']
               },
               idleTips: {
                 wordTheDay: true
