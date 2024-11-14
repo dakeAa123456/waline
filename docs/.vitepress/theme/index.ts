@@ -117,7 +117,7 @@ export default {
           //path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json'
           //path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/miku/miku.model.json',
           path:'https://model.oml2d.com/Senko_Normals/senko.model3.json',
-   
+           //path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json',
          scale: 0.09,
          position: [-40, 60],
          stageStyle: {

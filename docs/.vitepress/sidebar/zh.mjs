@@ -173,7 +173,24 @@ export const zhSidebar = {
 					link: '/zh/git-bushu'
 				},
 			]
+		},
+
+		{
+            text: '💥 Python',
+			collapsed: true,
+			items:[
+                {
+					text: '- Python安装',
+					link: '/zh/python_install'
+				},
+				{
+					text: '- PyCharm安装',
+					link: '/zh/pycharm_install'
+				}
+				
+			]
 		}
+
 
 
 
