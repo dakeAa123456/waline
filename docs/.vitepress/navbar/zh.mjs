@@ -23,8 +23,8 @@ export const zhNavbar = [
 		externalLinkIcon: true
 	},
 	{
-		text: '阿里邮箱入口',
-		link: 'https://qiye.aliyun.com/alimail/auth/login',
+		text: '翻译一下',
+		link: 'https://fanyi.baidu.com/mtpe-individual/multimodal?ext_channel=Aldtype',
 		externalLinkIcon: true
 	},
 	{
