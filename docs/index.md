@@ -61,28 +61,28 @@ features:
   margin-right: 30px;
 }
 
-/*爱的魔力转圈圈*/
+/_爱的魔力转圈圈_/
 .m-home-layout .image-src:hover {
-  transform: translate(-50%, -50%) rotate(666turn);
-  transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
+transform: translate(-50%, -50%) rotate(666turn);
+transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
 }
 
 .m-home-layout .details small {
-  opacity: 0.8;
+opacity: 0.8;
 }
 
 .m-home-layout .item:last-child .details {
-  display: flex;
-  justify-content: flex-end;
-  align-items: end;
+display: flex;
+justify-content: flex-end;
+align-items: end;
 }
 
 .bottom-small1:hover{
-  color: #bd34fe
+color: #bd34fe
 }
 .bottom-small:hover{
-  color: #FA8072;
-  
+color: #FA8072;
+
 }
 </style>
 <confetti />

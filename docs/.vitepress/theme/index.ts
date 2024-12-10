@@ -14,6 +14,7 @@ import './style/index.css'
 //引入五彩纸屑组件
 import confetti from "./components/confetti.vue"
 import github from "./components/github.vue"
+import snow from "./components/snow.vue"
 /** @type {import('vitepress').Theme} */
 //引入字数及阅读时间
 import ArticleMetadata from "./components/ArticleMetadata.vue"
@@ -88,18 +89,22 @@ export default {
      
     }
 
-    return h(DefaultTheme.Layout, props, {
-      'doc-footer-before': () => h(backtotop), // 使用doc-footer-before插槽
-      'layout-top': () => h(notice), // 使用layout-top插槽  
-    })
+    return h(DefaultTheme.Layout, props,
+      {'doc-footer-before': () => h(backtotop), 'layout-top': () => h(notice) }
+     )
+    
 
-  
+    
+    
+
+    
     
   },
  async enhanceApp({ app, router, siteData }) {
     //五彩纸屑
     app.component("confetti", confetti);
     app.component("github", github);
+    app.component("snow", snow);
     //字数及阅读时间
     app.component('ArticleMetadata' , ArticleMetadata);
     //下划线

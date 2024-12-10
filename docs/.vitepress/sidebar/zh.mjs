@@ -1,5 +1,31 @@
 export const zhSidebar = {
-	'/zh/': [	
+	'/zh/': [
+		{
+			text:'指南',
+			items:[
+				{
+					text:'主题的初衷与诞生',
+					link:'/zh/account'
+				},
+				{
+					text:'Python安装',
+					link:'/zh/python_install'
+				},
+				{
+					text:'PyCharm安装',
+					link:'/zh/pycharm_install'
+				},
+				{
+					text:'VitePress搭建',
+					link:'/zh/git-vitepress'
+				},
+				{
+					text:'VitePress部署指南',
+					link:'/zh/git-bushu'
+				}
+			]
+
+		},	
 		{
 			text: '💥 系统操作手册',
 			//可折叠侧边栏

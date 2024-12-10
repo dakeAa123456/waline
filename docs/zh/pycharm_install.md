@@ -1,4 +1,6 @@
-# PyCharm Professional 专业版教程
+<div style="display:flex;">
+<img  src="../public/images/themethreen.png" width="30px" height="30px"></img><h1>PyCharm Professional 专业版教程</h1>
+</div>
 
 :::tip PyCharm 介绍
 ‌PyCharm 是由 JetBrains 开发的一款专业 Python 集成开发环境（IDE），旨在提高开发效率，特别适合专业开发人员使用。‌ 它提供了智能代码补全、实时错误检查和快速修复等功能，帮助用户更高效地编写和调试代码。‌
@@ -52,3 +54,14 @@ T7USULHBNF -
 ---
 
 ![本地目录](../public/images/python009.png)
+
+11. pycharm 工具安装视频：
+<iframe 
+style="width:750px; height:600px; aspect-ratio:16/9; margin-top: 2em;" 
+src="https://www.bilibili.com/video/BV1qW4y1a7fU/?spm_id_from=333.788.videopod.episodes&vd_source=0ce952d9877a1661b784ea965e0219d9&p=11" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen>
+</iframe>
+
+<snow />

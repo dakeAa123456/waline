@@ -35,7 +35,7 @@ function shoot() {
   github({
     ...defaults,
     particleCount: 5,
-    flat: true
+    //flat: true
   });
 
   github({
