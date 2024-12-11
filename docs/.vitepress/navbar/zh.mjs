@@ -42,9 +42,10 @@ export const zhNavbar = [
 					text: '内部链接',
 					items:
 						[
-							{ text: 'VitePress官网', link: 'https://vitejs.cn/vitepress/' },
-							{ text: 'Vite中文网', link: 'https://vitejs.cn/' },
-							{ text: 'emoji表情库', link: 'https://github.com/ikatyang/emoji-cheat-sheet' }
+							{ text: 'DataV组件库', link: 'http://datav.jiaminghi.com/' },
+							{ text: 'Map Data', link: 'https://datav.aliyun.com/portal/school/atlas/area_selector' },
+							{ text: 'emoji表情库', link: 'https://github.com/ikatyang/emoji-cheat-sheet' },
+							{ text: 'Uni-app官网', link: 'https://uniapp.dcloud.net.cn/' }
 
 						]
 				},
@@ -52,10 +53,12 @@ export const zhNavbar = [
 					text: '外部链接',
 					items:
 						[
+							{ text: '小红书', link: 'https://www.xiaohongshu.com/explore' },
+							{ text: '空中投送', link: 'https://www.airportal.cn/' },
+							{ text: '今日头条', link: 'https://www.toutiao.com/?wid=1733906835697' },
+							{ text: 'ChatGPT', link: 'https://chat18.aichatos96.com/#/chat/1733903088495' }
 							
-							{ text: 'Uni-app官网', link: 'https://uniapp.dcloud.net.cn/' },
-							{ text: 'ChatGPT', link: 'https://chat18.aichatos8.com/' },
-							{ text: '微信小程序', link: 'https://mp.weixin.qq.com/' }
+
 						]
 				},
 			],

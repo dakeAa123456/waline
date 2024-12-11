@@ -23,6 +23,6 @@
 style="width:750px; height:600px; aspect-ratio:16/9; margin-top: 2em;" 
 src="https://www.bilibili.com/video/BV1qW4y1a7fU?spm_id_from=333.788.videopod.episodes&vd_source=0ce952d9877a1661b784ea965e0219d9&p=4" 
 frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 allowfullscreen>
 </iframe>
