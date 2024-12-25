@@ -1,6 +1,15 @@
 export const zhSidebar = {
 	'/zh/': [
 		{
+			text: '常用工具/方法',
+			collapsed: false,
+			items: [
+			  { text: '工具库整理', link: '/zh/library' },
+			  { text: '常用正则整理', link: '/workflow/utils/regexp' },
+			  { text: '常用代码片段', link: '/workflow/utils/snippets' }
+			]
+		  },
+		{
 			text:'指南',
 			items:[
 				{
