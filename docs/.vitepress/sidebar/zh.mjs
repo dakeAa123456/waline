@@ -1,15 +1,6 @@
 export const zhSidebar = {
 	'/zh/': [
 		{
-			text: '常用工具/方法',
-			collapsed: false,
-			items: [
-			  { text: '工具库整理', link: '/zh/library' },
-			  { text: '常用正则整理', link: '/workflow/utils/regexp' },
-			  { text: '常用代码片段', link: '/workflow/utils/snippets' }
-			]
-		  },
-		{
 			text:'指南',
 			items:[
 				{
@@ -193,8 +184,23 @@ export const zhSidebar = {
 				},
 			]
 		},
-
-        
+		{
+			text: '常用工具/方法',
+			collapsed: false,
+			items: [
+			  { text: '工具库整理', link: '/zh/library' },
+			  { text: '常用正则整理', link: '/zh/regexp' },
+			  { text: '常用代码片段', link: '/zh/snippets' }
+			]
+		  },
+		  {
+			text: 'Git 相关',
+			collapsed: false,
+			items: [
+			  { text: 'Git 相关技巧', link: '/zh/workflow/git/index' },
+			  { text: 'Git 命令清单', link: '/zh/workflow/git/command' }
+			]
+		  },   
 		{
             text: '💥 VitePress',
 			collapsed: true,
