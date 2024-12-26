@@ -12,7 +12,6 @@
 - 下载相关
   - [Windows 版下载镜像](https://npmmirror.com/mirrors/git-for-windows/)
   - [使用 jsdelivr 加速 Github 仓库资源](https://github.com/maomao1996/daily-notes/issues/7)
-- [commit 常用的 type](/workflow/style-guide#commit-常用的-type)
 
 :::
 
@@ -298,7 +297,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'pnpm'
+          cache: "pnpm"
 
       # 打包静态文件
       - name: Build
