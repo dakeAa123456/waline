@@ -197,7 +197,7 @@ export const zhSidebar = {
 			text: 'Git 相关',
 			collapsed: false,
 			items: [
-			  { text: 'Git 相关技巧', link: '/zh/index' },
+			  { text: 'Git 相关技巧', link: '/zh/gitp' },
 			  { text: 'Git 命令清单', link: '/zh/command' }
 			]
 		  },   
