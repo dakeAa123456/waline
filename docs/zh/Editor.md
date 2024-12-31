@@ -45,23 +45,32 @@ select * from dake.salesorder a where a.SalesOrderNo='91360098369';
 ### 条件二：仅修改销售总价，客户抬头不变
 
 ::: tip 步骤 1:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据业务员提供的销售定制订单信息，可以得知此时单据还属于【待组合】状态中，说明客户已经完成了扣款，此时我们需要更新扣款的金额，订单流程可继续下去，
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据业务员提供的销售定制订单信息，可以得知此时单据还属于【已结束】状态中，说明客户已经完成了扣款，此时我们需要更新扣款的金额。
 :::
 
-![Example Image](../public/images/17.png)
+![Example Image](../public/images/19.png)
 
 ---
 
 ::: tip 步骤 2：
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;待订单明细的状态为【待发货】，但是产品还未出库时，系统提供了最后再重新修改一次金额的机会，此操作会回退之前已经扣款的金额，重新再划扣新添加的金额，具体明细可在客户的资金明细中查看，如下图所示：
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将订单明细的状态改为【待发货】，系统提供了最后再重新修改一次金额的机会，此操作会回退之前已经扣款的金额，重新再划扣新添加的金额，具体明细可在客户的资金明细中查看，如下图所示：
 :::
 
 ![Example Image](../public/images/16.png)
 
-> 温馨提示：如果订单已经出库，销售总价被修改后，销售出库单主表和明细表里的总价和单价也需要同步修改，否则对接到金蝶的数据将有误，需要重新对接。
+> 返回的资金再重新扣款：
+
+![Example Image](../public/images/20.png)
+
+::: tip 步骤 3：
+由于此销售定制订单已经通知出库了，所以还需要根据下面的步骤修改出库单单据信息。如图所示：
+:::
+
+![Example Image](../public/images/21.png)
+![Example Image](../public/images/22.png)
 
 ```ts
-select * from dake.productoutstore a where a.ProductOutStoreNo='C26429148';
-select * from dake.productoutstoredetail a where a.ProductOutStoreId=2835407;
+select * from dake.productoutstore a where a.ProductOutStoreNo='C26435879';
+select * from dake.productoutstoredetail a where a.ProductOutStoreId=2842138;
 
 ```

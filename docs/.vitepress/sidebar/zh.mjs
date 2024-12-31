@@ -4,7 +4,7 @@ export const zhSidebar = {
 			text:'指南',
 			items:[
 				{
-					text:'主题的初衷与诞生',
+					text:'文档的初衷与诞生',
 					link:'/zh/account'
 				},
 				{
