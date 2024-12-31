@@ -38,7 +38,18 @@ export const zhSidebar = {
 				{
 					text: '- 常见问题处理',
 					collapsed: false,
-				    link: '/zh/production'
+				    link: '/zh/production'				
+				},
+				{
+					text: '- 受托加工问题',
+					collapsed: false,
+				    link: '/zh/shoutuo'
+					
+				},
+				{
+					text: '- 订单改价和修改抬头',
+					collapsed: false,
+				    link: '/zh/Editor'
 					
 				},
 				

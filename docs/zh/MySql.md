@@ -1,8 +1,10 @@
+<div style="display:flex;">
+<img  src="../public/images/themethreen.png" width="30px" height="30px"></img><h1>数据库列表</h1>
+</div>
+
 ::: tip 温馨提示
 此页面主要记录了云端数据库的相关信息，在日常工作中使用频率较高的数据表在这里都可以查询。此表仅供内部使用，严禁泄露！
 :::
-
-# 数据库列表
 
 > 1.如下所示的数据库表是查询从 WCC 系统传输过来的 BOM,主要查询 BOM 是否为空的数据问题。
 

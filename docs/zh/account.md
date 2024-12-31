@@ -1,8 +1,8 @@
 <div style="display:flex;">
-<img  src="../public/images/themeone.png" width="30px" height="30px"></img><h1>主题初衷与诞生</h1>
+<img  src="../public/images/themeone.png" width="30px" height="30px"></img><h1>文档初衷与诞生</h1>
 </div>
 
-这个主题的初衷是打造一个好用的、面向程序员的`知识管理工具`。
+这个文档的初衷是打造一个好用的、面向程序员的`知识管理工具`。
 
 对于程序员来说，繁杂的知识体系难免会有遗忘的地方。如果有一个方便好用的知识管理工具，可以帮助我们很好的管理知识，并能够快速地把遗忘的知识点找回来。
 
