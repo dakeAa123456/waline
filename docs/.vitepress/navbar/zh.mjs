@@ -13,29 +13,29 @@ export const zhNavbar = [
 		externalLinkIcon: true
 	},
 	{
-		text: 'OA系统入口',
+		text: 'OA系统',
 		link: 'http://oa.dakecn.com:8080/login.jsp',
 		
 	},
 	{
-		text: '金蝶云星空入口',
+		text: '金蝶云星空',
 		link: 'http://k3.dakecn.com/k3cloud/html5/index.aspx',
 		externalLinkIcon: true
 	},
 	{
-		text: '翻译一下',
-		link: 'https://fanyi.baidu.com/mtpe-individual/multimodal?ext_channel=Aldtype',
+		text: 'DeepSeek',
+		link: 'https://chat.deepseek.com/',
 		externalLinkIcon: true
 	},
 	{
-		text: '百度一下',
-		link: 'https://www.baidu.com',
+		text: '数据可视化',
+		link: 'https://www.dakecn.top/Echarts/index.html#/',
 		externalLinkIcon: true
 	},
     
 	//两层嵌套
 	{
-		text: '重要链接',
+		text: '链接工具',
 		items:
 			[
 				{
@@ -53,10 +53,11 @@ export const zhNavbar = [
 					text: '外部链接',
 					items:
 						[
-							{ text: '小红书', link: 'https://www.xiaohongshu.com/explore' },
-							{ text: '空中投送', link: 'https://www.airportal.cn/' },
-							{ text: '今日头条', link: 'https://www.toutiao.com/?wid=1733906835697' },
-							{ text: 'ChatGPT', link: 'https://chat18.aichatos96.com/#/chat/1733903088495' }
+							{ text: 'MSDN', link: 'https://next.itellyou.cn/Identity/Account/Login?ReturnUrl=%2FOriginal%2F' },
+							{ text: 'Monkey', link: 'http://www.blog.zjh2002.icu/#/' },					
+							{ text: 'ChatGPT', link: 'https://chat18.aichatos96.com/#/chat/1733903088495' },
+							{ text: 'ohMyLive2D', link: 'https://oml2d.hacxy.cn/' },
+							{ text: '翻译一下', link: 'https://fanyi.baidu.com/mtpe-individual/multimodal?ext_channel=Aldtype' },
 							
 
 						]
@@ -74,7 +75,7 @@ export const zhNavbar = [
 					text: '我的项目',
 					items:
 						[   { text: '时政新闻', link: 'https://www.dakecn.top/myblog/index.html#/' },
-							{ text: '小熊猫壁纸', link: 'https://static-mp-26c5c57d-e54d-41c6-9b3c-4c4d0d4ecebb.next.bspapp.com/dakeImg/index.html#/' },
+							{ text: '小熊猫壁纸', link: 'https://www.dakecn.top/dakeImg/index.html#/' },
 							{ text: '扫码出入库', link: 'https://www.dakecn.top/dakescan/index.html#/' }
 	
 						]

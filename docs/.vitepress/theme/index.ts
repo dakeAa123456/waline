@@ -119,9 +119,9 @@ export default {
       loadOml2d({
         models: [
          {
-          //path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json'
+          path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json',
           //path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/miku/miku.model.json',
-          path:'https://model.oml2d.com/Senko_Normals/senko.model3.json',
+          //path:'https://model.oml2d.com/Senko_Normals/senko.model3.json',
            //path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json',
          scale: 0.09,
          position: [-40, 60],
@@ -161,3 +161,12 @@ export default {
 
 
 }
+
+
+//<iframe 
+//style="width:750px; height:600px; aspect-ratio:16/9; margin-top: 2em;" 
+//src="https://www.bilibili.com/video/BV1qW4y1a7fU?spm_id_from=333.788.videopod.episodes&vd_source=0ce952d9877a1661b784ea965e0219d9&p=4" 
+//frameborder="0" 
+//allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+//allowfullscreen>
+//</iframe>

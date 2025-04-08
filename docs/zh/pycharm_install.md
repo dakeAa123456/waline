@@ -55,13 +55,9 @@ T7USULHBNF -
 
 ![本地目录](../public/images/python009.png)
 
-11. pycharm 工具安装视频：
-<iframe 
-style="width:750px; height:600px; aspect-ratio:16/9; margin-top: 2em;" 
-src="https://www.bilibili.com/video/BV1qW4y1a7fU/?spm_id_from=333.788.videopod.episodes&vd_source=0ce952d9877a1661b784ea965e0219d9&p=11" 
-frameborder="0" 
-allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-allowfullscreen>
-</iframe>
+11. pycharm 工具安装视频链接：
+
+> https://www.bilibili.com/video/BV1qW4y1a7fU/?spm_id_from=333.788.videopod.episodes&vd_source=0ce952d9877a1661b784ea965e0219d9&p=11
+
 
 <snow />
