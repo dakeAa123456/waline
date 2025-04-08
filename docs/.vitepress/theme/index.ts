@@ -113,21 +113,24 @@ export default {
     //导航组件
     app.component('MNavLinks' , MNavLinks)
     app.component('MNavLink' , MNavLink)
-    
+
+    // @ts-ignore-error
     if (!import.meta.env.SSR) {
       const { loadOml2d } = await import('oh-my-live2d');
       loadOml2d({
+        primaryColor: 'skyblue',
         models: [
          {
-          path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json',
-          //path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/miku/miku.model.json',
-          //path:'https://model.oml2d.com/Senko_Normals/senko.model3.json',
-           //path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json',
-         scale: 0.09,
-         position: [-40, 60],
-         stageStyle: {
-          height: 300
-        }
+          //path: 'https://model.hacxy.cn/shizuku/shizuku.model.json',  //带桌子的女生模型
+          //path:'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/miku/miku.model.json',//初音未来模型
+          //path: 'https://model.hacxy.cn/HK416-1-normal/model.json',         //原版女神模型
+          path:'https://model.hacxy.cn/Senko_Normals/senko.model3.json',   //狐狸模型
+          //path:'https://model.hacxy.cn/Pio/model.json',  //带翅膀的女生模型
+           scale: 0.08,
+           position: [0, 40],
+           stageStyle: {
+             height: 300
+           }
        
         }
          ],
