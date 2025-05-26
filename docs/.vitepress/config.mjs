@@ -115,7 +115,7 @@ export default defineConfig({
     footer: {
       message:'本文档免费提供学习及开发的接口需求，如有侵权请联系QQ邮箱:836843510@qq.com',
       copyright: 
-      '<view style="margin-right:8px;">Copyright © 2022-2025，最终解释权、版权、知识产权归©小汤圆所有</view><a style="margin-right:15px;" href="https://beian.miit.gov.cn/?spm=5176.29458888.J_9220772140.60.7cf02868hQEYty#/Integrated/index">浙ICP备2024082002号</a><img style="width:20px;height:20px;margin-right:2px;margin-top:2px;vertical-align:top;display:inline-block;" src="/images/pic.png"><a style="margin-right:5px;" href="https://beian.mps.gov.cn/#/query/webSearch">浙公网安备33010802013695号</a>'
+      '<view style="margin-right:8px;">Copyright © 2022-2026，最终解释权、版权、知识产权归©小汤圆所有</view><a style="margin-right:15px;" href="https://beian.miit.gov.cn/?spm=5176.29458888.J_9220772140.60.7cf02868hQEYty#/Integrated/index">浙ICP备2024082002号</a><img style="width:20px;height:20px;margin-right:2px;margin-top:2px;vertical-align:top;display:inline-block;" src="/images/pic.png"><a style="margin-right:5px;" href="https://beian.mps.gov.cn/#/query/webSearch">浙公网安备33010802013695号</a>'
     }
   }
 })

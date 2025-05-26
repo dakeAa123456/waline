@@ -75,7 +75,7 @@ export const zhNavbar = [
 					text: '我的项目',
 					items:
 						[   { text: '时政新闻', link: 'https://www.dakecn.top/myblog/index.html#/' },
-							{ text: '小熊猫壁纸', link: 'https://www.dakecn.top/dakeImg/index.html#/' },
+							{ text: '小熊猫壁纸', link: 'https://www.dakecn.top/xxmwallClient/index.html#/' },
 							{ text: '扫码出入库', link: 'https://www.dakecn.top/dakescan/index.html#/' }
 	
 						]
@@ -86,7 +86,7 @@ export const zhNavbar = [
 						[
 							
 							{ text: '时政发行页', link: 'https://www.dakecn.top/portal/indexblog.html' },
-							{ text: '壁纸发行页', link: 'https://www.dakecn.top/portal/indexImg.html' },
+							{ text: '壁纸发行页', link: 'https://www.dakecn.top/portal/Client_images.html' },
 							{ text: '扫码发行页', link: 'https://www.dakecn.top/portal/index.html' }
 						]
 				},
