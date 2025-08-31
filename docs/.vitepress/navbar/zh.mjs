@@ -8,19 +8,14 @@ export const zhNavbar = [
 	},
 	// 五个外部链接
 	{
-		text: '大可订单正式库',
-		link: 'http://erp.dakecn.com/',
+		text: '金翌车业官网',
+		link: 'https://www.jinyigroup.com.cn/#/',
 		externalLinkIcon: true
 	},
 	{
-		text: 'OA系统',
-		link: 'http://oa.dakecn.com:8080/login.jsp',
+		text: '京海通达官网',
+		link: 'https://jycy.jyqjlm.com/',
 		
-	},
-	{
-		text: '金蝶云星空',
-		link: 'http://k3.dakecn.com/k3cloud/html5/index.aspx',
-		externalLinkIcon: true
 	},
 	{
 		text: 'DeepSeek',
@@ -31,6 +26,26 @@ export const zhNavbar = [
 		text: '数据可视化',
 		link: 'https://www.dakecn.top/Echarts/index.html#/',
 		externalLinkIcon: true
+	},
+
+		//两层嵌套
+	{
+		text: '宝塔面板',
+		items:
+			[
+				{
+					text: '入口地址',
+					items:
+						[   { text: '圣传创智(139.224.248.130)', link: 'http://139.224.248.130:22285/1b95e313' },
+							{ text: '马上有车(139.196.192.1)', link: 'http://139.196.192.1:36102/60334b9a' },
+							{ text: '马上有车test(139.196.195.114)', link: 'http://139.196.195.114:10086/jhtd2022/' },
+							{ text: '京海通达(47.102.96.218)', link: 'https://47.102.96.218:8888/81f8c1a5/' },
+							{ text: 'My Services(8.133.18.22)', link: 'https://8.133.18.22:8899/b36f1310' }
+	
+						]
+				}
+			
+			],
 	},
     
 	//两层嵌套
