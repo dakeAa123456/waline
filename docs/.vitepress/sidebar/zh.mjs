@@ -22,6 +22,10 @@ export const zhSidebar = {
 				{
 					text:'VitePress部署指南',
 					link:'/zh/git-bushu'
+				},
+				{
+					text:'服务器部署文档',
+					link:'/zh/server'
 				}
 			]
 

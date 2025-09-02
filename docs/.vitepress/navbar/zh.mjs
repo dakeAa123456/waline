@@ -91,7 +91,8 @@ export const zhNavbar = [
 					items:
 						[   { text: '时政新闻', link: 'https://www.dakecn.top/myblog/index.html#/' },
 							{ text: '小熊猫壁纸', link: 'https://www.dakecn.top/xxmwallClient/index.html#/' },
-							{ text: '扫码出入库', link: 'https://www.dakecn.top/dakescan/index.html#/' }
+							{ text: '扫码出入库', link: 'https://www.dakecn.top/dakescan/index.html#/' },
+							{ text: 'JHTD官网', link: 'https://abc.dakecn.top/' }
 	
 						]
 				},
