@@ -8,14 +8,9 @@ export const zhNavbar = [
 	},
 	// 五个外部链接
 	{
-		text: '金翌车业官网',
+		text: '金顺电机官网',
 		link: 'https://www.jinyigroup.com.cn/#/',
 		externalLinkIcon: true
-	},
-	{
-		text: '京海通达官网',
-		link: 'https://jycy.jyqjlm.com/',
-		
 	},
 	{
 		text: 'DeepSeek',
@@ -41,6 +36,26 @@ export const zhNavbar = [
 							{ text: '马上有车test(139.196.195.114)', link: 'http://139.196.195.114:10086/jhtd2022/' },
 							{ text: '京海通达(47.102.96.218)', link: 'https://47.102.96.218:8888/81f8c1a5/' },
 							{ text: 'My Services(8.133.18.22)', link: 'https://8.133.18.22:8899/b36f1310' }
+	
+						]
+				}
+			
+			],
+	},
+
+		//两层嵌套
+	{
+		text: '官网入口',
+		items:
+			[
+				{
+					text: '入口地址',
+					items:
+						[   { text: '金翌车业', link: 'https://www.jinyigroup.com.cn/#/' },
+							{ text: '京海通达', link: 'https://jycy.jyqjlm.com/' },
+							{ text: '金顺电机', link: 'https://www.czjsjd.com/' },
+							{ text: 'JHTD框架', link: 'https://abc.dakecn.top/' }
+							
 	
 						]
 				}
@@ -92,9 +107,19 @@ export const zhNavbar = [
 						[   { text: '时政新闻', link: 'https://www.dakecn.top/myblog/index.html#/' },
 							{ text: '小熊猫壁纸', link: 'https://www.dakecn.top/xxmwallClient/index.html#/' },
 							{ text: '扫码出入库', link: 'https://www.dakecn.top/dakescan/index.html#/' },
-							{ text: 'JHTD官网', link: 'https://abc.dakecn.top/' }
+							{ text: '小熊猫壁纸后台', link: 'https://www.dakecn.top/xxmwallAdmin/index.html#/uni_modules/uni-id-pages/pages/login/login-withpwd?uniIdRedirectUrl=%252Fpages%252Factivity%252Fdaylist' }
 	
 						]
+				},
+				{
+					text: 'CRMEB',
+					items:
+						[
+							{ text: 'PHP后台', link: 'http://php.dakecn.top/login.php' },
+							{ text: 'CRMEB商城', link: 'https://bt.dakecn.top/' },
+							{ text: 'CRMEB商城后台管理', link: 'https://bt.dakecn.top/admin' }
+						]
+
 				},
 				{
 					text: '发行下载',
