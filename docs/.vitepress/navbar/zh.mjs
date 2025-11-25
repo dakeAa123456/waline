@@ -8,13 +8,13 @@ export const zhNavbar = [
 	},
 	// 五个外部链接
 	{
-		text: '金顺电机官网',
+		text: '金翌车业官网',
 		link: 'https://www.jinyigroup.com.cn/#/',
 		externalLinkIcon: true
 	},
 	{
-		text: 'DeepSeek',
-		link: 'https://chat.deepseek.com/',
+		text: '马上有车后台',
+		link: 'https://msyc.jhtd361.cn/?s=/login/index' ,
 		externalLinkIcon: true
 	},
 	{
@@ -32,8 +32,6 @@ export const zhNavbar = [
 					text: '入口地址',
 					items:
 						[   { text: '圣传创智(139.224.248.130)', link: 'http://139.224.248.130:22285/1b95e313' },
-							{ text: '马上有车(139.196.192.1)', link: 'http://139.196.192.1:36102/60334b9a' },
-							{ text: '马上有车test(139.196.195.114)', link: 'http://139.196.195.114:10086/jhtd2022/' },
 							{ text: '京海通达(47.102.96.218)', link: 'https://47.102.96.218:8888/81f8c1a5/' },
 							{ text: 'My Services(8.133.18.22)', link: 'https://8.133.18.22:8899/b36f1310' }
 	
@@ -51,12 +49,11 @@ export const zhNavbar = [
 				{
 					text: '入口地址',
 					items:
-						[   { text: '金翌车业', link: 'https://www.jinyigroup.com.cn/#/' },
-							{ text: '京海通达', link: 'https://jycy.jyqjlm.com/' },
+						[   { text: '马上有车', link: 'https://qjyz.jyqjlm.com/' },
+							{ text: '骑境驿站', link: 'https://jycy.jyqjlm.com/' },
 							{ text: '金顺电机', link: 'https://www.czjsjd.com/' },
-							{ text: 'JHTD框架', link: 'https://abc.dakecn.top/' }
-							
-	
+							{ text: '模板网站', link: 'https://jy.dakecn.top/client/index.html#/' },
+							{ text: '模板后台', link: 'https://jy.dakecn.top/admin/index.html#/' },
 						]
 				}
 			
@@ -75,7 +72,8 @@ export const zhNavbar = [
 							{ text: 'DataV组件库', link: 'http://datav.jiaminghi.com/' },
 							{ text: 'Map Data', link: 'https://datav.aliyun.com/portal/school/atlas/area_selector' },
 							{ text: 'emoji表情库', link: 'https://github.com/ikatyang/emoji-cheat-sheet' },
-							{ text: 'Uni-app官网', link: 'https://uniapp.dcloud.net.cn/' }
+							{ text: 'Uni-app官网', link: 'https://uniapp.dcloud.net.cn/' },
+							{ text: 'DeepSeek', link: 'https://chat.deepseek.com/' }
 
 						]
 				},
@@ -87,6 +85,7 @@ export const zhNavbar = [
 							{ text: 'Monkey', link: 'http://www.blog.zjh2002.icu/#/' },					
 							{ text: 'ChatGPT', link: 'https://chat18.aichatos96.com/#/chat/1733903088495' },
 							{ text: 'ohMyLive2D', link: 'https://oml2d.hacxy.cn/' },
+							{ text: 'ICO图标制作', link: 'http://ico.hillcloud.net/?action=make' },
 							{ text: '翻译一下', link: 'https://fanyi.baidu.com/mtpe-individual/multimodal?ext_channel=Aldtype' },
 							
 
@@ -116,8 +115,8 @@ export const zhNavbar = [
 					items:
 						[
 							{ text: 'PHP后台', link: 'http://php.dakecn.top/login.php' },
-							{ text: 'CRMEB商城', link: 'https://bt.dakecn.top/' },
-							{ text: 'CRMEB商城后台管理', link: 'https://bt.dakecn.top/admin' }
+							{ text: 'CRMEB小程序', link: 'https://qjyz.jhtd361.cn/' },
+							{ text: 'CRMEB后台管理', link: 'https://qjyz.jhtd361.cn/admin/login?redirect=%2Fadmin%2Fdashboard' }
 						]
 
 				},
