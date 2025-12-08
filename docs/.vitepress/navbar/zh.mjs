@@ -56,13 +56,13 @@ export const zhNavbar = [
 							{ text: '模板网站', link: 'https://jy.dakecn.top/client/index.html#/' },
 							{ text: '模板后台', link: 'https://jy.dakecn.top/admin/index.html#/' },
 						]
-				}
+				},
 					{
 					text: '友情链接',
 					items:
 						[
 							{ text: '特效插件', link: 'https://moefyit.github.io/moefy-vuepress/' },
-							{ text: '时雨梦', link: 'https://nyakku.moe/' },					
+							{ text: '时雨梦零', link: 'https://nyakku.moe/' },					
 							
 							
 
