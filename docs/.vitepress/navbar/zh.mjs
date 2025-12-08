@@ -49,13 +49,25 @@ export const zhNavbar = [
 				{
 					text: '入口地址',
 					items:
-						[   { text: '马上有车', link: 'https://qjyz.jyqjlm.com/' },
-							{ text: '骑境驿站', link: 'https://jycy.jyqjlm.com/' },
+						[   { text: '骑境驿站', link: 'https://qjyz.jyqjlm.com/' },
+							{ text: '马上有车', link: 'https://www.msyc.com.cn/' },
+							{ text: '京海通达', link: 'https://jycy.jyqjlm.com/' },
 							{ text: '金顺电机', link: 'https://www.czjsjd.com/' },
 							{ text: '模板网站', link: 'https://jy.dakecn.top/client/index.html#/' },
 							{ text: '模板后台', link: 'https://jy.dakecn.top/admin/index.html#/' },
 						]
 				}
+					{
+					text: '友情链接',
+					items:
+						[
+							{ text: '特效插件', link: 'https://moefyit.github.io/moefy-vuepress/' },
+							{ text: '时雨梦', link: 'https://nyakku.moe/' },					
+							
+							
+
+						]
+				},
 			
 			],
 	},
