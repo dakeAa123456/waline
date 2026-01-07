@@ -13,8 +13,8 @@ export const zhNavbar = [
 		externalLinkIcon: true
 	},
 	{
-		text: '马上有车后台',
-		link: 'https://msyc.jhtd361.cn/?s=/login/index' ,
+		text: '金顺机电官网',
+		link: 'https://demo.jhtd361.cn/clients/index.html#/' ,
 		externalLinkIcon: true
 	},
 	{
@@ -25,16 +25,16 @@ export const zhNavbar = [
 
 		//两层嵌套
 	{
-		text: '宝塔面板',
+		text: '模板网站',
 		items:
 			[
 				{
 					text: '入口地址',
 					items:
-						[   { text: '圣传创智(139.224.248.130)', link: 'http://139.224.248.130:22285/1b95e313' },
-							{ text: '京海通达(47.102.96.218)', link: 'https://47.102.96.218:8888/81f8c1a5/' },
-							{ text: 'My Services(8.133.18.22)', link: 'https://8.133.18.22:8899/b36f1310' }
-	
+						[   { text: '金翌模板', link: 'https://jy.dakecn.top/client/index.html#/' },
+							{ text: '金翌后台', link: 'https://jy.dakecn.top/admin/index.html#/' },
+							{ text: '金顺模板', link: 'https://demo.jhtd361.cn/clients/index.html#/' },
+							{ text: '金顺后台', link: 'https://demo.jhtd361.cn/admin/index.html#/' }
 						]
 				}
 			
@@ -51,10 +51,9 @@ export const zhNavbar = [
 					items:
 						[   { text: '骑境驿站', link: 'https://qjyz.jyqjlm.com/' },
 							{ text: '马上有车', link: 'https://www.msyc.com.cn/' },
-							{ text: '京海通达', link: 'https://jycy.jyqjlm.com/' },
-							{ text: '金顺电机', link: 'https://www.czjsjd.com/' },
-							{ text: '模板网站', link: 'https://jy.dakecn.top/client/index.html#/' },
-							{ text: '模板后台', link: 'https://jy.dakecn.top/admin/index.html#/' },
+							{ text: '金顺机电', link: 'https://www.czjsjd.com/' },
+							{ text: '金顺后台', link: 'https://admin.czjsjd.com/login?redirect=%2Findex'},
+							{ text: '文档导航', link: 'https://docs.jhtd361.cn' }
 						]
 				},
 					{
@@ -83,7 +82,7 @@ export const zhNavbar = [
 						[
 							{ text: 'DataV组件库', link: 'http://datav.jiaminghi.com/' },
 							{ text: 'Map Data', link: 'https://datav.aliyun.com/portal/school/atlas/area_selector' },
-							{ text: 'emoji表情库', link: 'https://github.com/ikatyang/emoji-cheat-sheet' },
+							{ text: '坐标拾取器', link: 'https://lbs.amap.com/tools/picker' },
 							{ text: 'Uni-app官网', link: 'https://uniapp.dcloud.net.cn/' },
 							{ text: 'DeepSeek', link: 'https://chat.deepseek.com/' }
 
@@ -99,8 +98,6 @@ export const zhNavbar = [
 							{ text: 'ohMyLive2D', link: 'https://oml2d.hacxy.cn/' },
 							{ text: 'ICO图标制作', link: 'http://ico.hillcloud.net/?action=make' },
 							{ text: '翻译一下', link: 'https://fanyi.baidu.com/mtpe-individual/multimodal?ext_channel=Aldtype' },
-							
-
 						]
 				},
 			],
@@ -118,7 +115,8 @@ export const zhNavbar = [
 						[   { text: '时政新闻', link: 'https://www.dakecn.top/myblog/index.html#/' },
 							{ text: '小熊猫壁纸', link: 'https://www.dakecn.top/xxmwallClient/index.html#/' },
 							{ text: '扫码出入库', link: 'https://www.dakecn.top/dakescan/index.html#/' },
-							{ text: '小熊猫壁纸后台', link: 'https://www.dakecn.top/xxmwallAdmin/index.html#/uni_modules/uni-id-pages/pages/login/login-withpwd?uniIdRedirectUrl=%252Fpages%252Factivity%252Fdaylist' }
+							{ text: '小熊猫壁纸后台', link: 'https://www.dakecn.top/xxmwallAdmin/index.html#/uni_modules/uni-id-pages/pages/login/login-withpwd?uniIdRedirectUrl=%252Fpages%252Factivity%252Fdaylist' },
+							{ text: 'My Services', link: 'https://8.133.18.22:8899/b36f1310' }
 	
 						]
 				},
