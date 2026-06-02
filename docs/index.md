@@ -5,7 +5,7 @@ layoutClass: m-mao-layout
 aside: false
 hero:
   name: "初音未来"
-  text: "欢迎来到小龙虾的网站"
+  text:    "欢迎来到小龙虾的网站"
   tagline: 优秀案例，随堂笔记，API接口，想你所要
   image:
     src: /images/chuyinweilai.png
@@ -59,12 +59,13 @@ features:
 ---
 
 <style>
+  
 .m-mao-layout img {
   display: inline-block;
   margin-right: 30px;
 }
 
-/_爱的魔力转圈圈_/
+/*_爱的魔力转圈圈_*/
 .m-home-layout .image-src:hover {
 transform: translate(-50%, -50%) rotate(666turn);
 transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
@@ -87,9 +88,11 @@ color: #bd34fe
 color: #FA8072;
 
 }
+
 </style>
-<confetti />
 <HomeUnderline />
+<confetti />
+
 
 ## **_快捷方式 ：_**
 
