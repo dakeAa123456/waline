@@ -19,44 +19,33 @@ export const NAV_DATA: NavData[] = [
       {
         icon: '/images/123.png',
         title: '河北-供应商服务大厅',
-        desc: '河北电力供应商服务大厅',
+        desc: '河北电力供应商网上服务大厅',
         link: 'https://wzgs.he.sgcc.com.cn:18000/iscm-lobby'
       },
-      {
-        icon: '/images/123.png',
-        title: '河南-招投标网上大厅',
-        desc: '河南电力公司招投标网上服务大厅（百和网）',
-        link: 'http://221.176.115.171:7001/bp'
-      },
+    
       {
         icon: '/images/123.png',
         title: '福建-e链国网',
-        desc: '福建电力公司电子商务平台',
+        desc: '国网电力公司现代供应链一站式服务门户',
         link: 'http://218.5.11.102/ess/#/portal'
       },
       {
         icon: '/images/234.png',
         title: '河南-e链国网',
-        desc: '河南电力公司一站式服务平台',
+        desc: '国网河南电力公司一站式服务平台',
         link: 'http://ess.ha.sgcc.com.cn/#/home'
       },
       {
         icon: '/images/234.png',
-        title: '湖北-e链国网',
-        desc: '湖北电力公司一站式服务平台',
-        link: 'http://ess.hb.sgcc.com.cn:18181/'
-      },
-      {
-        icon: '/images/234.png',
         title: '湖南-e链国网',
-        desc: '湖南电力公司一站式服务平台',
+        desc: '现代智慧供应链一站式服务门户 | 国网湖南电力公司',
         link: 'http://ess.hn.sgcc.com.cn:10081/#/ex_index'
       },
         {
         icon: '/images/234.png',
         title: '山西-e链国网',
-        desc: '山西电力公司一站式服务平台',
-        link: 'http://ess.sx.sgcc.com.cn/platform/portal/index.html;jsessionid=1D421CC96117456021841F6860912BFC#/'
+        desc: '现代智慧供应链一站式服务门户 | 国网山西电力公司',
+        link: 'https://ess.sx.sgcc.com.cn/platform/portal/index.html;jsessionid=1D421CC96117456021841F6860912BFC#/'
       },
       {
         icon: '/images/234.png',
@@ -73,19 +62,19 @@ export const NAV_DATA: NavData[] = [
       {
         icon: '/images/789.png',
         title: '冀北-e链国网',
-        desc: '国网冀北电力公司一站式服务平台',
+        desc: '现代智慧供应链一站式服务门户 | 国网冀北电力公司',
         link: 'https://ess.jibei.sgcc.com.cn:18443/elgw-web/index.html#/dashboard'
       },
       {
         icon: '/images/789.png',
         title: '四川-e链国网',
-        desc: '国网四川电力公司一站式服务平台',
+        desc: '现代智慧供应链一站式服务门户 | 国网四川电力公司',
         link: 'http://ess.sc.sgcc.com.cn/'
       },
       {
         icon: '/images/789.png',
         title: '浙江-e链国网',
-        desc: '浙江电力公司智慧物资调配平台',
+        desc: '现代智慧供应链一站式服务门户 | 国网浙江电力公司',
         link: 'https://ess.zj.sgcc.com.cn'
       },
     ]
@@ -96,8 +85,8 @@ export const NAV_DATA: NavData[] = [
       {
         icon: '/images/234.png',
         title: '吉林-结算网站',
-        desc: '吉林电力公司结算网站',
-        link: 'https://139.210.101.225/scp/#/login'
+        desc: '供应商智慧共享平台 | 吉林电力公司结算单据电子化平台',
+        link: 'https://itemgysjldl.ztccloud.com.cn/scp/#/login'
       },
       {
         icon: '/images/234.png',
@@ -116,18 +105,6 @@ export const NAV_DATA: NavData[] = [
         title: '山东-智慧物资MAP',
         desc: '山东电力公司智慧物资调配平台',
         link: 'http://www.flint.sd.sgcc.com.cn/map'
-      },
-       {
-        icon: '/images/234.png',
-        title: '新疆-物资履约数字化',
-        desc: '新疆电力公司物资履约单据数字化平台',
-        link: 'http://ess.xj.sgcc.com.cn:18080/#/login'
-      },
-       {
-        icon: '/images/123.png',
-        title: '浙江电E签',
-        desc: '浙江电力公司电子签章平台',
-        link: 'http://pwsign.hyit.com.cn:18080/sign_web/'
       },
        {
         icon: '/images/123.png',
@@ -154,11 +131,17 @@ export const NAV_DATA: NavData[] = [
         link: 'http://222.171.23.220:18080/'
       },
       {
-        icon: '/images/789.png',
+        icon: '/images/123.png',
         title: '宁夏-数智服务大厅',
         desc: '宁夏电力公司网上供应商数智服务大厅系统',
         link: 'https://61.133.196.167'
       },
+      {
+        icon: '/images/123.png',
+        title: '国家电网管理平台ISC',
+        desc: '国家电网供应商服务大厅',
+        link: 'http://ewz.bj.sgcc.com.cn/djdzh/djdzh-main/login/index.jsp'
+      }, 
     ]
   },
   {
@@ -170,18 +153,6 @@ export const NAV_DATA: NavData[] = [
         desc: '北京电力公司结算单据电子化平台',
         link: 'http://ewz.bj.sgcc.com.cn/djdzh/djdzh-main/login/index.jsp'
       },  
-      {
-        icon: '/images/789.png',
-        title: '甘肃-电e签',
-        desc: '甘肃电力公司结算单据电子化平台',
-        link: 'http://61.178.40.22:9053/djdzh/djdzh-main/login/index.jsp'
-      }, 
-       {
-        icon: '/images/789.png',
-        title: '吉林-电e签',
-        desc: '吉林电力公司结算单据电子化平台',
-        link: 'http://jsdjdzh.jl.sgcc.com.cn:18080/djdzh/djdzh-main/login/index.jsp'
-      }, 
         {
         icon: '/images/789.png',
         title: '江西-电e签',
@@ -200,42 +171,15 @@ export const NAV_DATA: NavData[] = [
         desc: '西藏电力公司结算单据电子化平台',
         link: 'http://ess.xz.sgcc.com.cn:18001/djdzh/djdzh-main/login/index.jsp'
       }, 
-        {
-        icon: '/images/234.png',
-        title: '新疆-电e签',
-        desc: '新疆电力公司结算单据电子化平台',
-        link: 'http://ess.xj.sgcc.com.cn/djdzh/djdzh-main/login/index.jsp'
-      }, 
       {
         icon: '/images/234.png',
         title: '黑龙江-单据电子化',
         desc: '黑龙江电力公司结算单据电子化平台',
         link: 'http://ewz.hl.sgcc.com.cn:13000/'
-      }, 
-      {
-        icon: '/images/234.png',
-        title: '黑龙江-外网单据电子化',
-        desc: '黑龙江电力公司结算外网单据电子化平台',
-        link: 'http://ewz.hl.sgcc.com.cn:8081/djdzh/djdzh-main/login/index.jsp'
-      }, 
-    ]
-  },
-
-
-   {
-    title: '统一权限/管理平台类',
-    items: [
-      {
-        icon: '/images/123.png',
-        title: '国家电网管理平台ISC',
-        desc: '国家电网统一权限管理平台',
-        link: 'http://ewz.bj.sgcc.com.cn/djdzh/djdzh-main/login/index.jsp'
       },  
- 
+
     ]
   },
-
-  
    {
     title: '普安科技官网',
     items: [
