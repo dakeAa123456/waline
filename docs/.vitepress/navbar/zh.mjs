@@ -8,13 +8,13 @@ export const zhNavbar = [
 	},
 	// 五个外部链接
 	{
-		text: '金翌车业官网',
-		link: 'https://www.jinyigroup.com.cn/#/',
+		text: '普安科技',
+		link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/clients/index.html#/' ,
 		externalLinkIcon: true
 	},
 	{
-		text: '金顺机电官网',
-		link: 'https://demo.jhtd361.cn/clients/index.html#/' ,
+		text: '金翌车业',
+		link: 'https://www.jinyigroup.com.cn/#/',
 		externalLinkIcon: true
 	},
 	{
