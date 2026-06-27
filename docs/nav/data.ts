@@ -184,40 +184,43 @@ export const NAV_DATA: NavData[] = [
     title: '普安科技官网',
     items: [
       {
-        icon: '/images/logo3.jpg',
+        icon: '/images/logov.jpg',
         title: '普安科技',
         desc: '第一代企业官方网站-前端',
         link: 'http://www.puancn.com/'
       }, 
       {
-        icon: '/images/logo3.jpg',
+        icon: '/images/logov.jpg',
         title: '普安科技',
-        desc: '第一代企业官方网站-后端',
-        link: 'http://www.puancn.com/'
+        desc: '第一代企业官方网站-后台管理系统',
+        link: 'http://www.puancn.com/admin/Login.aspx'
       },   
     {
-        icon: '/images/logov.jpg',
+        icon: '/images/logo3.jpg',
         title: '普安科技-V18.01',
-        desc: '第二代企业官方网站-前端-暂时无法访问',
+        desc: '第二代企业官方网站-导航菜单可以滚动，模仿金顺网站',
         link: 'https://env-00jy66rcryjg-static.normal.cloudstatic.cn/clients/index.html#/'
       }, 
-          {
-        icon: '/images/logov.jpg',
-        title: '普安科技-V18.01',
-        desc: '第二代企业官方网站-后端-暂时无法访问',
-        link: 'https://env-00jy66rcryjg-static.normal.cloudstatic.cn/admin/index.html#/uni_modules/uni-id-pages/pages/login/login-withpwd?uniIdRedirectUrl=%252Fpages%252Findex%252Findex'
-      }, 
+
           {
         icon: '/images/logo3.jpg',
-        title: '普安科技-V18.02',
-        desc: '第三代企业官方网站-前端，最新版本',
+        title: '普安科技-V19.02',
+        desc: '第三代企业官方网站，页面布局优化',
         link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/clients/index.html#/'
       }, 
 
-      {
+
+         {
         icon: '/images/logo3.jpg',
-        title: '普安科技-V18.02',
-        desc: '第三代企业官方网站-后端，最新版本',
+        title: '普安科技-V20.03',
+        desc: '第四代企业官方网站，背景色动态切换',
+        link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/Clients/index.html#/'
+      }, 
+
+      {
+        icon: '/images/logov.jpg',
+        title: '普安科技-V20.03',
+        desc: '第四代企业官方网站-后台管理系统',
         link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/admin/index.html#/uni_modules/uni-id-pages/pages/login/login-withpwd?uniIdRedirectUrl=%252Fpages%252Findex%252Findex'
       }, 
  

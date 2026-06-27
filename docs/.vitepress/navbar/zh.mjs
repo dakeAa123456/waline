@@ -9,12 +9,12 @@ export const zhNavbar = [
 	// 五个外部链接
 	{
 		text: '普安科技',
-		link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/clients/index.html#/' ,
+		link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/Clients/index.html#/' ,
 		externalLinkIcon: true
 	},
 	{
-		text: '金翌车业',
-		link: 'https://www.jinyigroup.com.cn/#/',
+		text: '百度统计',
+		link: 'https://tongji.baidu.com/web5/welcome/login?castk=LTE%3D',
 		externalLinkIcon: true
 	},
 	{
@@ -35,6 +35,7 @@ export const zhNavbar = [
 							{ text: '金翌后台', link: 'https://jy.dakecn.top/admin/index.html#/' },
 							{ text: '金顺模板', link: 'https://demo.jhtd361.cn/clients/index.html#/' },
 							{ text: '金顺后台', link: 'https://demo.jhtd361.cn/admin/index.html#/' }
+
 						]
 				}
 			
@@ -53,6 +54,7 @@ export const zhNavbar = [
 							{ text: '马上有车', link: 'https://www.msyc.com.cn/' },
 							{ text: '金顺机电', link: 'https://www.czjsjd.com/' },
 							{ text: '金顺后台', link: 'https://admin.czjsjd.com/login?redirect=%2Findex'},
+							{ text: '金翌车业', link: 'https://www.jinyigroup.com.cn/#/' },
 							{ text: '文档导航', link: 'https://docs.jhtd361.cn' }
 						]
 				},
@@ -92,11 +94,11 @@ export const zhNavbar = [
 					text: '外部链接',
 					items:
 						[
-							{ text: 'MSDN', link: 'https://next.itellyou.cn/Identity/Account/Login?ReturnUrl=%2FOriginal%2F' },
-							{ text: 'Monkey', link: 'http://www.blog.zjh2002.icu/#/' },					
+							{ text: 'MSDN', link: 'https://next.itellyou.cn/Identity/Account/Login?ReturnUrl=%2FOriginal%2F' },				
 							{ text: 'ChatGPT', link: 'https://chat18.aichatos96.com/#/chat/1733903088495' },
 							{ text: 'ohMyLive2D', link: 'https://oml2d.hacxy.cn/' },
 							{ text: 'ICO图标制作', link: 'http://ico.hillcloud.net/?action=make' },
+							{ text: '浦东信息港', link: 'http://www.pdxx.net/' },	
 							{ text: '翻译一下', link: 'https://fanyi.baidu.com/mtpe-individual/multimodal?ext_channel=Aldtype' },
 						]
 				},
