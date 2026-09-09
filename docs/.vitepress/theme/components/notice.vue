@@ -23,10 +23,10 @@ setTimeout(function(){ visible.value = false }, 900000);
         <div class="bulletin-content">
            <h2> — 快使用微信扫码体验一下吧：</h2>
            
-            <img class="bulletin-img" src="/images/pandow.jpg">
+            <img class="bulletin-img" src="/images/qrcode.png" alt="二维码" />
             <hr>
             <div class="btn-group">
-                <a class="btn" href="https://erp.dakecn.top/" target="_blank">官网</a>
+                <a class="btn" href="http://www.puancn.com/" target="_blank">官网</a>
             </div>
         </div>
     </div>

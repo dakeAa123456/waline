@@ -4,145 +4,105 @@ export const zhNavbar = [
 		text: '首页',
 		link: '/',
 		//该元素将一直处于激活状态,
-	    //activeMatch: '/',
+		//activeMatch: '/',
 	},
 	// 五个外部链接
+
 	{
 		text: '普安科技',
-		link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/Clients/index.html#/' ,
-		externalLinkIcon: true
-	},
-	{
-		text: '百度统计',
-		link: 'https://tongji.baidu.com/web5/welcome/login?castk=LTE%3D',
-		externalLinkIcon: true
-	},
-	{
-		text: '数据可视化',
-		link: 'https://www.dakecn.top/Echarts/index.html#/',
+		link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/Clients/index.html#/',
 		externalLinkIcon: true
 	},
 
-		//两层嵌套
+	{ text: 'EIP采集中心', link: 'http://192.168.110.200/login' },
+
+	{ text: 'Easy-Connect', link: 'https://vpn.puancn.top:4430/portal/#!/login' },
+
+
 	{
-		text: '模板网站',
+		text: '操作手册',
+		items:
+			[
+				{ text: '前端网址', link: 'https://code.puancn.top:3001/' },
+				{ text: '后端管理', link: 'https://code.puancn.top:3001/admin' },
+			]
+
+	},
+
+	{
+		text: '海康录像机',
+		items:
+			[
+				{ text: '网关NVR', link: 'http://192.168.3.4/doc/index.html#/portal/login' },
+				{ text: '车间NVR', link: 'http://192.168.3.5/doc/index.html#/portal/login?t=1787967760339' },
+			]
+
+	},
+
+
+	//两层嵌套
+	{
+		text: '常用链接',
 		items:
 			[
 				{
-					text: '入口地址',
+					text: 'MES',
 					items:
-						[   { text: '金翌模板', link: 'https://jy.dakecn.top/client/index.html#/' },
-							{ text: '金翌后台', link: 'https://jy.dakecn.top/admin/index.html#/' },
-							{ text: '金顺模板', link: 'https://demo.jhtd361.cn/clients/index.html#/' },
-							{ text: '金顺后台', link: 'https://demo.jhtd361.cn/admin/index.html#/' }
+						[
+							{ text: '制造执行系统', link: 'http://mes.puankj.top:10050/gdpaas/login/index.htm' },
+							{ text: '智能终端平台', link: 'http://mes.puankj.top:9991/#/Login' },
+
 
 						]
+				},
+				{
+					text: '致远互联',
+					items:
+						[
+							{ text: 'OA内网', link: 'https://oa.puancn.top/seeyon/main.do' },
+							{ text: 'OA外网', link: 'https://oa.puankj.top:9443/seeyon/index.jsp' },
+
+						]
+				},
+			],
+	},
+
+
+	{
+		text: '网络管理',
+		items:
+			[
+				{
+					text: '网络设备',
+					items:
+						[
+							{ text: '防火墙AF-1600B', link: 'https://sxf.puancn.top/' },
+							{ text: '路由器UR7504', link: 'https://192.168.8.1/cgi-bin/luci?ssl=false' },
+
+
+						]
+				},
+
+				{
+					text: 'NAS存储',
+					items:
+						[
+							{ text: 'DS423', link: 'https://ds423.puankj.top:5001/#/signin' },
+							{ text: 'RS2423+', link: 'https://nas.puankj.top/#/signin' },
+						]
+
 				}
-			
-			],
+
+
+
+			]
+
 	},
 
-		//两层嵌套
-	{
-		text: '官网入口',
-		items:
-			[
-				{
-					text: '入口地址',
-					items:
-						[   { text: '骑境驿站', link: 'https://qjyz.jyqjlm.com/' },
-							{ text: '马上有车', link: 'https://www.msyc.com.cn/' },
-							{ text: '金顺机电', link: 'https://www.czjsjd.com/' },
-							{ text: '金顺后台', link: 'https://admin.czjsjd.com/login?redirect=%2Findex'},
-							{ text: '金翌车业', link: 'https://www.jinyigroup.com.cn/#/' },
-							{ text: '文档导航', link: 'https://docs.jhtd361.cn' }
-						]
-				},
-					{
-					text: '友情链接',
-					items:
-						[
-							{ text: '特效插件', link: 'https://moefyit.github.io/moefy-vuepress/' },
-							{ text: '时雨梦零', link: 'https://nyakku.moe/' },					
-							
-							
 
-						]
-				},
-			
-			],
-	},
-    
-	//两层嵌套
-	{
-		text: '链接工具',
-		items:
-			[
-				{
-					text: '内部链接',
-					items:
-						[
-							{ text: 'DataV组件库', link: 'http://datav.jiaminghi.com/' },
-							{ text: 'Map Data', link: 'https://datav.aliyun.com/portal/school/atlas/area_selector' },
-							{ text: '坐标拾取器', link: 'https://lbs.amap.com/tools/picker' },
-							{ text: 'Uni-app官网', link: 'https://uniapp.dcloud.net.cn/' },
-							{ text: 'DeepSeek', link: 'https://chat.deepseek.com/' }
 
-						]
-				},
-				{
-					text: '外部链接',
-					items:
-						[
-							{ text: 'MSDN', link: 'https://next.itellyou.cn/Identity/Account/Login?ReturnUrl=%2FOriginal%2F' },				
-							{ text: 'ChatGPT', link: 'https://chat18.aichatos96.com/#/chat/1733903088495' },
-							{ text: 'ohMyLive2D', link: 'https://oml2d.hacxy.cn/' },
-							{ text: 'ICO图标制作', link: 'http://ico.hillcloud.net/?action=make' },
-							{ text: '浦东信息港', link: 'http://www.pdxx.net/' },	
-							{ text: '翻译一下', link: 'https://fanyi.baidu.com/mtpe-individual/multimodal?ext_channel=Aldtype' },
-						]
-				},
-			],
-	},
-	
-	
-	//两层嵌套
-	{
-		text: '个人站点',
-		items:
-			[
-				{
-					text: '我的项目',
-					items:
-						[   { text: '时政新闻', link: 'https://www.dakecn.top/myblog/index.html#/' },
-							{ text: '小熊猫壁纸', link: 'https://www.dakecn.top/xxmwallClient/index.html#/' },
-							{ text: '扫码出入库', link: 'https://www.dakecn.top/dakescan/index.html#/' },
-							{ text: '小熊猫壁纸后台', link: 'https://www.dakecn.top/xxmwallAdmin/index.html#/uni_modules/uni-id-pages/pages/login/login-withpwd?uniIdRedirectUrl=%252Fpages%252Factivity%252Fdaylist' },
-							{ text: 'My Services', link: 'https://8.133.18.22:8899/b36f1310' }
-	
-						]
-				},
-				{
-					text: 'CRMEB',
-					items:
-						[
-							{ text: 'PHP后台', link: 'http://php.dakecn.top/login.php' },
-							{ text: 'CRMEB小程序', link: 'https://qjyz.jhtd361.cn/' },
-							{ text: 'CRMEB后台管理', link: 'https://qjyz.jhtd361.cn/admin/login?redirect=%2Fadmin%2Fdashboard' }
-						]
 
-				},
-				{
-					text: '发行下载',
-					items:
-						[
-							
-							{ text: '时政发行页', link: 'https://www.dakecn.top/portal/indexblog.html' },
-							{ text: '壁纸发行页', link: 'https://www.dakecn.top/portal/Client_images.html' },
-							{ text: '扫码发行页', link: 'https://www.dakecn.top/portal/index.html' }
-						]
-				},
-			],
-	},
-	
+
+
+
 ]

@@ -4,9 +4,9 @@ layout: home
 layoutClass: m-mao-layout
 aside: false
 hero:
-  name: "初音未来"
-  text:    "欢迎来到小龙虾的网站"
-  tagline: 优秀案例，随堂笔记，API接口，想你所要
+  name: "普安科技"
+  text:    "欢迎来到我的文档网站"
+  tagline: 态度决定一切，细节决定成败
   image:
     src: /images/chuyinweilai.png
     alt: 背景图片
@@ -25,37 +25,38 @@ hero:
       link: https://limestart.cn/
 
 features:
+  - icon: 🎈
+    title: '<text class="bottom-small1">puan</text>'
+    details: '<text class="bottom-small">致力成为新型电力装备与服务的智造者</text>'
+    link: https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/Clients/index.html#/
+    linkText: 普安官网
   - icon: 📢
-    title: '<text class="bottom-small1">iconfont</text>'
-    details: '<text class="bottom-small">千万矢量图标素材,海量优秀创作,使用简单，方便快捷，支持AI/SVG/PNG/代码格式下载</text>'
-    link: https://www.iconfont.cn/?spm=a313x.collections_index.i3.d4d0a486a.50223a81bvXKoN
-    linkText: 阿里巴巴图标库
+    title: '<text class="bottom-small1">OA</text>'
+    details: '<text class="bottom-small">提供企业级协同管理软件、解决方案及云服务，帮助政企客户进行数字化转型 。</text>'
+    link: https://oa.puancn.top/seeyon/main.do
+    linkText: 致远协同平台
 
   - icon: 📍
-    title: '<text class="bottom-small1">colorDrop</text>'
-    details: '<text class="bottom-small">欢迎来到五颜六色的世界，这是一个丰富多彩的色彩网站，在这里绝对可以找到属于你的幸运色！</text>'
-    link: https://colordrop.io/
-    linkText: 彩虹色
+    title: '<text class="bottom-small1">MES</text>'
+    details: '<text class="bottom-small">MES 是制造执行系统（Manufacturing Execution System）的缩写‌，是连接企业计划层（如 ERP）与车间生产现场的核心信息化管理系统，主要负责生产计划下达、过程监控、数据采集、质量追溯等功能。</text>'
+    link: http://mes.puankj.top:10050/gdpaas/login/index.htm
+    linkText: 制造执行系统
   - icon: 🛵
-    title: '<text class="bottom-small1">iLovePDF</text>'
-    details: '<text class="bottom-small">完全免费、易于使用、丰富的PDF处理工具，包括：合并、拆分、压缩、转换、旋转和解锁PDF文件，以及给PDF文件添加水印的工具，仅需几秒钟即可完成。</text>'
-    link: https://www.ilovepdf.com/zh-cn
-    linkText: PDF爱好者的在线工具
+    title: '<text class="bottom-small1">ITP</text>'
+    details: '<text class="bottom-small">MES智能终端平台(Intelligent Terminal Platform),主要是车间人员在工控机上通过浏览器访问网页系统进行生产报工，后台自动进行数据采集。</text>'
+    link: http://mes.puankj.top:9991/#/Login
+    linkText: 智能终端平台
   - icon: 🎉
-    title: '<text class="bottom-small1">Pexels</text>'
-    details: '<text class="bottom-small">才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频</text>'
-    link: https://www.pexels.com/zh-cn/
-    linkText: 精美壁纸图片
-  - icon: 🎈
-    title: '<text class="bottom-small1">Canva</text>'
-    details: '<text class="bottom-small">你想要的海报，简历，文档，演示文稿皆在于此，使用Canva可画，轻松创建并分享专业设计</text>'
-    link: https://www.canva.cn/
-    linkText: Canva可画
+    title: '<text class="bottom-small1">EIP</text>'
+    details: '<text class="bottom-small">供应商数据采集中心，自动对接上传数据到国网网关，智能互联车间监控录像，系统操作方便快捷。</text>'
+    link: http://192.168.110.200/login
+    linkText: 数据采集中心
+
   - icon: 🍡
-    title: '<text class="bottom-small1">Apache ECharts</text>'
-    details: '<text class="bottom-small">一个基于 JavaScript 的开源可视化图表库</text>'
-    link: https://echarts.apache.org/zh/index.html
-    linkText: 数据可视化组件库
+    title: '<text class="bottom-small1">VPN</text>'
+    details: '<text class="bottom-small">欢迎使用杭州普安科技VPN，让您的系统接入更安全，体验更好！</text>'
+    link: https://vpn.puancn.top:4430/portal/#!/login
+    linkText: 普安科技VPN
 ---
 
 <style>

@@ -227,6 +227,125 @@ export const NAV_DATA: NavData[] = [
     ]
   },
 
+  {
+    title: '学习工具',
+    items: [
+      {
+        icon: 'https://img.alicdn.com/imgextra/i2/O1CN01FF1t1g1Q3PDWpSm4b_!!6000000001920-55-tps-508-135.svg',
+        title: '阿里巴巴图标库',
+        desc: '千万矢量图标素材,海量优秀创作,使用简单、方便快捷、支持AI/SVG/PNG/代码格式下载',
+        link: 'https://www.iconfont.cn/?spm=a313x.collections_index.i3.d4d0a486a.50223a81bvXKoN'
+      }, 
+
+      {
+        icon: '/images/msdn.png',
+        title: 'MSDN-软件系统',
+        desc: '相伴十八年，出发下一站',
+        link: 'https://next.itellyou.cn/Identity/Account/Login?ReturnUrl=%2FOriginal%2F'
+      }, 
+      {
+        icon: '/images/msdn.png',
+        title: 'ChatGPT',
+        desc: 'chatGPT-3.5/4.0在线体验，支持多轮对话，支持多种语言，支持多种场景',
+        link: 'https://chat18.aichatos96.com/#/chat/1788841405763'
+      }, 
+      {
+        icon: '/images/msdn.png',
+        title: 'OhMyLive2D',
+        desc: '新一代看板娘组件，支持多种模型格式，支持自定义动作和表情，支持多种交互方式',
+        link: 'https://oml2d.hacxy.cn/'
+      },
+      {
+        icon: '/images/msdn.png',
+        title: 'ICO-图标制作',
+        desc: 'favicon.ico图标一般用于作为缩略的网站标志，通常显示在浏览器标签页上',
+        link: 'http://ico.hillcloud.net/?action=make'
+      }, 
+      {
+        icon: '/images/msdn.png',
+        title: '坐标拾取器',
+        desc: '根据经度和纬度获取坐标点的拾取器工具',
+        link: 'https://lbs.amap.com/tools/picker'
+      }, 
+      {
+        icon: '/images/datav.ico',
+        title: 'DataV可视化',
+        desc: 'Vue 大屏数据展示组件库',
+        link: 'http://datav.jiaminghi.com/'
+      },    
+      {
+        icon: '/images/datav.ico',
+        title: 'Map Data',
+        desc: 'DataV 地图数据可视化平台',
+        link: 'https://datav.aliyun.com/portal/school/atlas/area_selector?spm=a2crr.23498931.0.0.236315dd3VZQh8'
+      },  
+      {
+        icon: '/images/datav.ico',
+        title: 'UniApp官网',
+        desc: '开发一次，多端覆盖',
+        link: 'https://uniapp.dcloud.net.cn/'
+      }, 
+      {
+        icon: '/images/tongji.png',
+        title: '百度统计',
+        desc: '一站式数据分析平台，提供网站流量分析、用户行为分析、转化率分析等功能',
+        link: 'https://tongji.baidu.com/web5/welcome/login'
+      },                        
+
+
+    ]
+
+  },
+
+
+    {
+    title: '友情链接',
+    items: [
+      {
+        icon: 'https://colordrop.io/icon.png',
+        title: 'ColorDrop',
+        desc: 'ColorDrop-提供各种颜色选择器，支持多种颜色模式，支持自定义颜色参数',
+        link: 'https://colordrop.io/'
+      },   
+      {
+        icon: 'https://www.ilovepdf.com/img/ilovepdf.svg',
+        title: 'iLovePDF',
+        desc: 'iLovePDF-提供各种PDF处理工具，支持多种PDF操作，支持自定义参数',
+        link: 'https://www.ilovepdf.com/zh-cn'
+      }, 
+      {
+        icon: 'https://colordrop.io/icon.png',
+        title: 'Pexels',
+        desc: 'Pexels-提供各种免费图片资源，支持多种搜索和筛选方式，支持自定义参数',
+        link: 'https://www.pexels.com/zh-cn/'
+      }, 
+      {
+        icon: 'https://colordrop.io/icon.png',
+        title: 'Canva',
+        desc: 'Canva-提供各种设计模板，支持多种设计类型，支持自定义设计参数',
+        link: 'https://www.canva.cn/templates'
+      },   
+      {
+        icon: 'https://echarts.apache.org/zh/images/logo.png?_v_=20240226',
+        title: 'ECharts',
+        desc: 'ECharts-提供各种数据可视化图表，支持多种图表类型，支持自定义配置参数',
+        link: 'https://echarts.apache.org/zh/index.html'
+      },           
+      {
+        icon: '/images/logov.jpg',
+        title: '特效插件',
+        desc: '特效插件-提供各种特效插件，支持多种特效类型，支持自定义特效参数',
+        link: 'https://moefyit.github.io/moefy-vuepress/'
+      },   
+      {
+        icon: '/images/logov.jpg',
+        title: '时雨梦之零',
+        desc: '时雨梦之零-个人文档，学习的好助手',
+        link: 'https://nyakku.moe/'
+      },    
   
+    ]
+
+  }
  
 ]
