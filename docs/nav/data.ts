@@ -302,6 +302,18 @@ export const NAV_DATA: NavData[] = [
     title: '友情链接',
     items: [
       {
+        icon: '/images/xiaomi.png',
+        title: '小米相册',
+        desc: '小米相册-提供各种照片管理功能，支持多种照片格式，支持自定义照片参数',
+        link: 'https://i.mi.com/'
+      },    
+      {
+        icon: '/images/vercel.png',
+        title: 'Vercel',
+        desc: 'Vercel 是全球领先的前端云开发平台，官网为 vercel.com，提供从零配置部署到 AI 智能体基础设施的全栈解决方案‌。',
+        link: 'https://vercel.com/'
+      },  
+      {
         icon: 'https://colordrop.io/icon.png',
         title: 'ColorDrop',
         desc: 'ColorDrop-提供各种颜色选择器，支持多种颜色模式，支持自定义颜色参数',
@@ -330,7 +342,13 @@ export const NAV_DATA: NavData[] = [
         title: 'ECharts',
         desc: 'ECharts-提供各种数据可视化图表，支持多种图表类型，支持自定义配置参数',
         link: 'https://echarts.apache.org/zh/index.html'
-      },           
+      },
+      {
+        icon: '/images/stock.png',
+        title: '阜阳大可',
+        desc: '阜阳大可产品介绍文档，专业制造纤维板，阻燃版等高级板材。',
+        link: 'https://erp.dakecn.top/'
+      },             
       {
         icon: '/images/logov.jpg',
         title: '特效插件',

@@ -16,7 +16,7 @@ export const zhNavbar = [
 
 	{ text: 'EIP采集中心', link: 'http://192.168.110.200/login' },
 
-	{ text: 'Easy-Connect', link: 'https://vpn.puancn.top:4430/portal/#!/login' },
+
 
 
 	{
@@ -33,8 +33,8 @@ export const zhNavbar = [
 		text: '海康录像机',
 		items:
 			[
-				{ text: '网关NVR', link: 'http://192.168.3.4/doc/index.html#/portal/login' },
-				{ text: '车间NVR', link: 'http://192.168.3.5/doc/index.html#/portal/login?t=1787967760339' },
+				{ text: '网关NVR-8832N', link: 'http://192.168.3.4/doc/index.html#/portal/login' },
+				{ text: '车间NVR-8864N', link: 'http://192.168.3.5/doc/index.html#/portal/login?t=1787967760339' },
 			]
 
 	},
@@ -73,6 +73,15 @@ export const zhNavbar = [
 		items:
 			[
 				{
+					text: 'NAS存储',
+					items:
+						[
+							{ text: 'DS423', link: 'https://ds423.puankj.top:5001/#/signin' },
+							{ text: 'RS2423+', link: 'https://nas.puankj.top/#/signin' },
+						]
+
+				},
+				{
 					text: '网络设备',
 					items:
 						[
@@ -82,13 +91,12 @@ export const zhNavbar = [
 
 						]
 				},
-
 				{
-					text: 'NAS存储',
+					text: '工具链接',
 					items:
 						[
-							{ text: 'DS423', link: 'https://ds423.puankj.top:5001/#/signin' },
-							{ text: 'RS2423+', link: 'https://nas.puankj.top/#/signin' },
+							{ text: 'VPN登录', link: 'https://vpn.puancn.top:4430/portal/#!/login' },
+
 						]
 
 				}
