@@ -2,6 +2,45 @@ import type { NavData } from '../.vitepress/theme/types'
 
 export const NAV_DATA: NavData[] = [
   {
+     title: '财务网址',
+    items: [
+      {
+        icon: '/images/sympone.png',
+        title: '中国石化销售公司',
+        desc: '中国石化网上营业厅，为美好生活加油！',
+        link: 'https://www.sinopecsales.com/'
+      },
+      { 
+        icon: 'https://sso.txffp.com/sso/myimages/logo.png',
+        title: '票根发票',
+        desc: '票根-收费公路通行费电子发票服务平台',
+        link: 'https://sso.txffp.com/sso/app/oauth/login?client_id=000031&response_type=code&redirect_uri=https://pss.txffp.com/pss/app/oauth/login&scope=USERINFO&state=state'
+      },
+      {
+        icon: '/images/south.png',
+        title: '中国南方电网',
+        desc: '中国南方电网-供应链统一服务平台',
+        link: 'https://www.bidding.csg.cn/'
+      },
+      {
+        icon: '/images/taxe.png',
+        title: '电子税务局',
+        desc: '国家税务总局浙江省电子税务局',
+        link: 'https://etax.zhejiang.chinatax.gov.cn:8443/'
+      },
+      {
+        icon: '/images/baoxian.png',
+        title: '长安保险',
+        desc: '英大长安保险经纪平台',
+        link: 'https://bs.caej.com.cn/login'
+      },
+    ]
+  },
+
+
+
+
+  {
     title: '电商采购/招投标平台类',
     items: [
       {

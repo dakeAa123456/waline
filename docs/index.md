@@ -97,6 +97,12 @@ color: #FA8072;
 
 ## **_快捷方式 ：_**
 
+[![中国石化销售](https://img.shields.io/badge/中国石化销售-sinopecsales.com-E6212A)](https://www.sinopecsales.com/)
+[![腾讯发票平台SSO](https://img.shields.io/badge/票根平台SSO-txffp-0052CC)](https://sso.txffp.com/sso/app/oauth/login?client_id=000031&response_type=code&redirect_uri=https://pss.txffp.com/pss/app/oauth/login&scope=USERINFO&state=state)
+[![南方电网供应链平台](https://img.shields.io/badge/南方电网供应链平台-bidding.csg.cn-004098)](https://www.bidding.csg.cn/)
+[![浙江电子税务局](https://img.shields.io/badge/浙江电子税务局-etax.zhejiang.chinatax.gov.cn-0066B3)](https://etax.zhejiang.chinatax.gov.cn:8443/)
+[![英大长安保险](https://img.shields.io/badge/长安保险-bs.caej.com.cn-005A9C)](https://bs.caej.com.cn/login)
+
 [![Visual Studio Code](https://img.shields.io/badge/VS%20CODE-007ACC?logo=VisualStudioCode&logoColor=fff)](https://code.visualstudio.com/Download)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=Node.js&logoColor=fff)](https://nodejs.org/zh-cn)
 [![Email](https://img.shields.io/badge/邮箱-Email-EA4335?logo=Gmail)](https://qiye.aliyun.com/alimail/auth/login?custom_login_flag=1&reurl=%2Falimail%2F)
@@ -106,3 +112,7 @@ color: #FA8072;
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=Vite&logoColor=fff)](https://www.vitejs.net/)
 [![支付宝](https://img.shields.io/badge/alipay-blue?logo=alipay&logoColor=1677FF&label=%E6%94%AF%E4%BB%98%E5%AE%9D&labelColor=lightgrey)](https://www.alipay.com/x/personal)
 [![微信](https://img.shields.io/badge/WeChat-07C160?logo=wechat&logoColor=white&label=微信&labelColor=green)](https://mp.weixin.qq.com/?token=&lang=zh_CN)
+
+
+
+

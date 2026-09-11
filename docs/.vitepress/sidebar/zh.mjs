@@ -31,7 +31,7 @@ export const zhSidebar = {
 
 		},	
 		{
-			text: '💥 系统操作手册',
+			text: '💥 普安科技文档',
 			//可折叠侧边栏
 			collapsed: false,
 			items: [

@@ -9,10 +9,11 @@ export const zhNavbar = [
 	// 五个外部链接
 
 	{
-		text: '普安科技',
-		link: 'https://env-00jy6bcqqzds-static.normal.cloudstatic.cn/Clients/index.html#/',
+		text: 'OA登录入口',
+		link: 'https://oa.puancn.top/seeyon/main.do',
 		externalLinkIcon: true
 	},
+
 
 	{ text: 'EIP采集中心', link: 'http://192.168.110.200/login' },
 
@@ -106,6 +107,11 @@ export const zhNavbar = [
 			]
 
 	},
+
+
+	{ text: '下载中心', link: '/zh/baidu.md' },
+
+
 
 
 
