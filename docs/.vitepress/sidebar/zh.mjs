@@ -36,13 +36,22 @@ export const zhSidebar = {
 			collapsed: false,
 			items: [
 				{
-					text: '- 大可数据库',
-					link: '/zh/MySql',
+					text: '- office软件',
+					link: '/zh/puan/puan-office',
 				},
 				{
-					text: '- 常见问题处理',
-					collapsed: false,
-				    link: '/zh/production'				
+					text: '- 用友U8系统',					
+				    collapsed: true,
+					items:[
+						{
+							text:'- ERP系统安装',
+							collapsible: true,
+							link: '/zh/puan/puan-erp'
+						}
+						
+						
+						
+					]				
 				},
 				{
 					text: '- 受托加工问题',
@@ -110,6 +119,7 @@ export const zhSidebar = {
 									
 			],
 		},
+		/*
 		{
 			text: '💥 API壁纸',
 			collapsed: true,
@@ -168,7 +178,7 @@ export const zhSidebar = {
 				},
 			]
 		},
-
+*/
 		{
 			text: '💥 常用工具API',
 			collapsed: true,

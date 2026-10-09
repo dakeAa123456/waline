@@ -20,16 +20,8 @@ export const zhNavbar = [
 
 
 
-	{
-		text: '操作手册',
-		items:
-			[
-				{ text: '前端网址', link: 'https://code.puancn.top:3001/' },
-				{ text: '后端管理', link: 'https://code.puancn.top:3001/admin' },
-			]
 
-	},
-
+/*
 	{
 		text: '海康录像机',
 		items:
@@ -39,7 +31,7 @@ export const zhNavbar = [
 			]
 
 	},
-
+*/
 
 	//两层嵌套
 	{
@@ -65,6 +57,15 @@ export const zhNavbar = [
 
 						]
 				},
+					{
+		           text: '操作手册',
+		           items:
+			          [
+				           { text: '前端网址', link: 'https://code.puancn.top:3001/' },
+				           { text: '后端管理', link: 'https://code.puancn.top:3001/admin' },
+			         ]
+
+	},
 			],
 	},
 
@@ -97,6 +98,7 @@ export const zhNavbar = [
 					items:
 						[
 							{ text: 'VPN登录', link: 'https://vpn.puancn.top:4430/portal/#!/login' },
+						    { text: '下载中心', link: '/zh/baidu.md' }
 
 						]
 

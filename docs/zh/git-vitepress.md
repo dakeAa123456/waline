@@ -16,10 +16,10 @@ VitePress 是一个基于 Vite 和 Vue 3 的静态网站生成器，特别适用
 - 以上准备工作全部完成后，即可开始搭建ViePress网站。
 ## **_快速开始_**
 1. 在本地存储盘中选择一个合适的位置创建你的项目目录，例如：D:\git\vitepress
-![本地目录](../public/images/git001.png)
+![本地目录](/images/git001.png)
 
 2. 在viepress文件目录的地址栏输入cmd命令，回车Enter进入终端命令提示符，如下图所示：
-![本地目录](../public/images/git002.png)
+![本地目录](/images/git002.png)
 
 3. 选择如下包管理器命令，在刚刚打开的终端目录下安装vitepress。
 ::: code-group
