@@ -16,6 +16,7 @@ export const zhNavbar = [
 
 
 	{ text: 'EIP采集中心', link: 'http://192.168.110.200/login' },
+	{ text: 'EIP智慧物联', link: 'https://eip.sgcc.com.cn/' },
 
 
 
@@ -89,6 +90,7 @@ export const zhNavbar = [
 						[
 							{ text: '防火墙AF-1600B', link: 'https://sxf.puancn.top/' },
 							{ text: '路由器UR7504', link: 'https://192.168.8.1/cgi-bin/luci?ssl=false' },
+							{ text: '路由器ER3200', link: 'http://192.168.120.254/router_index.html#/login' },
 
 
 						]

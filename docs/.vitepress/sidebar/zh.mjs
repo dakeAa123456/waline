@@ -44,7 +44,7 @@ export const zhSidebar = {
 				    collapsed: true,
 					items:[
 						{
-							text:'- ERP系统安装',
+							text:'- ERP系统安装（客户端）',
 							collapsible: true,
 							link: '/zh/puan/puan-erp'
 						}
@@ -54,17 +54,21 @@ export const zhSidebar = {
 					]				
 				},
 				{
-					text: '- 受托加工问题',
-					collapsed: false,
-				    link: '/zh/shoutuo'
-					
+					text: '- MES系统',					
+				    collapsed: true,
+					items:[
+						{
+							text:'- 打印模板设置',
+							collapsible: true,
+							link: '/zh/puan/puan-mes'
+						}
+						
+						
+						
+					]				
 				},
-				{
-					text: '- 订单改价和修改抬头',
-					collapsed: false,
-				    link: '/zh/Editor'
-					
-				},
+
+
 				
 			],
 		},

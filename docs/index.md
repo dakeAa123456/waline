@@ -53,10 +53,10 @@ features:
     linkText: 数据采集中心
 
   - icon: 🍡
-    title: '<text class="bottom-small1">VPN</text>'
-    details: '<text class="bottom-small">欢迎使用杭州普安科技VPN，让您的系统接入更安全，体验更好！</text>'
-    link: https://vpn.puancn.top:4430/portal/#!/login
-    linkText: 普安科技VPN
+    title: '<text class="bottom-small1">EIP Cloud</text>'
+    details: '<text class="bottom-small">欢迎使用EIP电工装备智慧物联平台（绿色制造云网）</text>'
+    link: https://eip.sgcc.com.cn/
+    linkText: EIP智慧物联
 ---
 
 <style>

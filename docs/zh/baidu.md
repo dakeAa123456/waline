@@ -1,86 +1,34 @@
-# **_百度热搜_**
+# **_下载列表_**
 
 ---
 
-::: tip 接口描述
-网站内容如果比较空缺，可以增加个百度热搜，让用户在你网站就可以快速实现浏览，对用户来讲还是比较友好的，如下图所示：
+::: tip 程序下载
+本文档主要提供公司内部安装程序下载链接，例如：打印机程序、CAD2025机械版、CAD2023机械版、Office安装程序和激活工具、OA客户端Button按钮等。
 :::
-![IP图片](../public/images/baidu.png)
 
----
 
-## **_接口地址_**
 
-```js
-https://tea.qingnian8.com/tools/baiduHot
-```
+### A4纸文档打印机：
 
----
+- [2522夏普安装程序](https://code.puancn.top:3001/uploads/docs/M2522R.zip)
 
-## **_请求方式_**
+- [3618夏普安装程序](https://code.puancn.top:3001/uploads/docs/MX3618.zip)
 
-```ts
-GET;
-```
+- [惠普HPEasyStart安装程序](https://code.puancn.top:3001/uploads/docs/打印机/HPEasyStart_17_5_11.exe)
 
----
+### 碳带二维码打印机：
 
-## **_请求参数_**
+- [3906新得利安装程序](https://code.puancn.top:3001/uploads/docs/新得利3906.rar)
 
-| 序号 | 参数名 | 参数值 | 是否必填 | 参数类型 |      描述说明      |
-| :--: | :----: | :----: | :------: | :------: | :----------------: |
-|  1   |  size  |   10   |    否    |  Number  | 获取多少条百度热搜 |
+### 中望CAD：
 
----
+- [中望2025机械版CAD安装包](https://code.puancn.top:3001/uploads/docs/中望CAD/ZWCAD_Mechanical_2025_Chs_Win_64bit(20250120).exe)
 
-## **_秘钥验证_**
+- [中望2023机械版CAD安装包](https://code.puancn.top:3001/uploads/docs/中望CAD/ZWCAD_Mechanical_2023_Chs_Win_64bit(20230427).exe)
 
-| 序号 |   参数名   |   参数值   | 是否必填 | 参数类型 |    描述说明    |
-| :--: | :--------: | :--------: | :------: | :------: | :------------: |
-|  1   | access-key | dake123321 |    是    |  String  | 获得秘钥参数。 |
+### Office安装程序与激活工具：
 
----
+- [office安装程序](https://code.puancn.top:3001/uploads/docs/Office/office2013-2019.zip)
 
-## **_微信小程序扫码查看_**
+- [office激活工具](https://code.puancn.top:3001/uploads/docs/Office/激活工具/KMS-Cangshui.net.bat)
 
-![壁纸接口](../public/images/pandow.jpg)
-
----
-
-## **_响应示例_**
-
-```ts
-{
-	"errCode": 0,
-	"errMsg": "查询成功",
-	"data": [
-		{
-			"rank": 1,
-			"keyword": "周冬雨金鸡奖照念手稿引争议",
-			"url": "https://www.baidu.com/s?wd=%E5%91%A8%E5%86%AC%E9%9B%A8%E9%87%91%E9%B8%A1%E5%A5%96%E7%85%A7%E5%BF%B5%E6%89%8B%E7%A8%BF%E5%BC%95%E4%BA%89%E8%AE%AE&sa=fyb_news&rsv_dl=fyb_news",
-			"summary": "近日，周冬雨和葛优在金鸡奖颁奖典礼上一起颁发最佳男主角奖，周冬雨拿着手稿照着念，与葛优老师的互动显得生疏和尴尬，引发争议。 ",
-			"image": "https://fyb-2.cdn.bcebos.com/hotboard_image/95bb8a9481b815d8c5dbc8222cf131fa",
-			"hotValue": 4503822
-		}
-	],
-	"timeCost": 2
-}
-```
-
-| 序号 |  参数名  | 参数类型 |       描述说明       |
-| :--: | :------: | :------: | :------------------: |
-|  1   | errCode  | Integer  |  0：成功 400：失败   |
-|  2   |  errMsg  |  String  |     查询结果描述     |
-|  3   | timeCost | Integer  |     接口消耗时间     |
-|  4   |   data   |  Array   | 百度热搜列表详细参数 |
-
-## **_详细热搜对象返回参数_**
-
-| 序号 |  参数名  |       描述说明       |
-| :--: | :------: | :------------------: |
-|  1   |   rank   |         排名         |
-|  2   | keyword  |         标题         |
-|  3   |   url    | 百度详细内容链接地址 |
-|  4   | summary  |       摘要信息       |
-|  5   |  image   |        缩略图        |
-|  6   | hotValue |        热搜值        |
