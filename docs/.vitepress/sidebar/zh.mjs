@@ -67,6 +67,78 @@ export const zhSidebar = {
 						
 					]				
 				},
+				{
+					text: '- EIP系统',					
+				    collapsed: true,
+					items:[
+						{
+							text:'- 数据采集中心-总览',
+							collapsible: true,
+							link: '/zh/puan/puan-eip'
+						},
+						{
+							text:'- 准备工作',
+							collapsible: true,
+							link: '/zh/puan/puan-eip2'
+						},
+						{
+							text:'- 菜单简介',
+							collapsible: true,
+							link: '/zh/puan/puan-eip3'
+						},	
+						
+						{
+					text: '📰 菜单详情',
+					collapsed: true,
+					items:[
+			            {
+							text:'- 业务数据',
+							collapsible: true,
+							link: '/zh/puan/puan-业务数据'
+						},
+						{
+							text:'- 物联数据',
+							collapsible: true,
+							link: '/zh/puan/puan-物联数据'
+						},
+						{
+							text:'- 数据采集',
+							collapsible: true,
+							link: '/zh/puan/puan-数据采集'
+						},
+						{
+							text:'- 设备管理',
+							collapsible: true,
+							link: '/zh/puan/puan-设备管理'
+						},
+						{
+							text:'- 文件管理',
+							collapsible: true,
+							link: '/zh/puan/puan-文件管理'
+						},		
+						
+						{
+							text:'- 赛博蒂克',
+							collapsible: true,
+							link: '/zh/puan/puan-赛博蒂克'
+						},
+						{
+							text:'- 赛博恩特',
+							collapsible: true,
+							link: '/zh/puan/puan-赛博恩特'
+						}		
+												
+						
+					]
+				},
+
+						
+						
+						
+					]				
+				},
+
+				
 
 
 				
